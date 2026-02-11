@@ -1,0 +1,25 @@
+﻿{
+    "values":  [
+                   "tfcmu2:ore/normal_rutile/granite",
+                   "tfcmu2:ore/normal_rutile/diorite",
+                   "tfcmu2:ore/normal_rutile/gabbro",
+                   "tfcmu2:ore/normal_rutile/shale",
+                   "tfcmu2:ore/normal_rutile/claystone",
+                   "tfcmu2:ore/normal_rutile/limestone",
+                   "tfcmu2:ore/normal_rutile/conglomerate",
+                   "tfcmu2:ore/normal_rutile/dolomite",
+                   "tfcmu2:ore/normal_rutile/chert",
+                   "tfcmu2:ore/normal_rutile/chalk",
+                   "tfcmu2:ore/normal_rutile/tuff",
+                   "tfcmu2:ore/normal_rutile/rhyolite",
+                   "tfcmu2:ore/normal_rutile/basalt",
+                   "tfcmu2:ore/normal_rutile/andesite",
+                   "tfcmu2:ore/normal_rutile/dacite",
+                   "tfcmu2:ore/normal_rutile/quartzite",
+                   "tfcmu2:ore/normal_rutile/slate",
+                   "tfcmu2:ore/normal_rutile/phyllite",
+                   "tfcmu2:ore/normal_rutile/schist",
+                   "tfcmu2:ore/normal_rutile/gneiss",
+                   "tfcmu2:ore/normal_rutile/marble"
+               ]
+}

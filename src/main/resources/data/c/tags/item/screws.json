@@ -1,0 +1,16 @@
+{
+    "replace":  false,
+    "values":  [
+                   "#c:screws/compressed_iron",
+                   "#c:screws/platinum",
+                   "#c:screws/iridium",
+                   "#c:screws/osmium",
+                   "#c:screws/osmiridium",
+                   "#c:screws/mythril",
+                   "#c:screws/antimony",
+                   "#c:screws/tungsten",
+                   "#c:screws/solder",
+                   "#c:screws/thorium",
+                   "#c:screws/tungsten_steel"
+               ]
+}

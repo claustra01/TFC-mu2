@@ -1,0 +1,16 @@
+{
+    "replace":  false,
+    "values":  [
+                   "#c:metal/briquet/compressed_iron",
+                   "#c:metal/briquet/platinum",
+                   "#c:metal/briquet/iridium",
+                   "#c:metal/briquet/osmium",
+                   "#c:metal/briquet/osmiridium",
+                   "#c:metal/briquet/mythril",
+                   "#c:metal/briquet/antimony",
+                   "#c:metal/briquet/tungsten",
+                   "#c:metal/briquet/solder",
+                   "#c:metal/briquet/thorium",
+                   "#c:metal/briquet/tungsten_steel"
+               ]
+}

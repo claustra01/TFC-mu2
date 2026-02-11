@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "tfcmu2:block/ore/small_bertrandite",
+        "y": 90
+      },
+      {
+        "model": "tfcmu2:block/ore/small_bertrandite"
+      },
+      {
+        "model": "tfcmu2:block/ore/small_bertrandite",
+        "y": 180
+      },
+      {
+        "model": "tfcmu2:block/ore/small_bertrandite",
+        "y": 270
+      }
+    ]
+  }
+}

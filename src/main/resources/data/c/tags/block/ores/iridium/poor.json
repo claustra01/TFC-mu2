@@ -1,0 +1,25 @@
+﻿{
+    "values":  [
+                   "tfcmu2:ore/poor_native_iridium/granite",
+                   "tfcmu2:ore/poor_native_iridium/diorite",
+                   "tfcmu2:ore/poor_native_iridium/gabbro",
+                   "tfcmu2:ore/poor_native_iridium/shale",
+                   "tfcmu2:ore/poor_native_iridium/claystone",
+                   "tfcmu2:ore/poor_native_iridium/limestone",
+                   "tfcmu2:ore/poor_native_iridium/conglomerate",
+                   "tfcmu2:ore/poor_native_iridium/dolomite",
+                   "tfcmu2:ore/poor_native_iridium/chert",
+                   "tfcmu2:ore/poor_native_iridium/chalk",
+                   "tfcmu2:ore/poor_native_iridium/tuff",
+                   "tfcmu2:ore/poor_native_iridium/rhyolite",
+                   "tfcmu2:ore/poor_native_iridium/basalt",
+                   "tfcmu2:ore/poor_native_iridium/andesite",
+                   "tfcmu2:ore/poor_native_iridium/dacite",
+                   "tfcmu2:ore/poor_native_iridium/quartzite",
+                   "tfcmu2:ore/poor_native_iridium/slate",
+                   "tfcmu2:ore/poor_native_iridium/phyllite",
+                   "tfcmu2:ore/poor_native_iridium/schist",
+                   "tfcmu2:ore/poor_native_iridium/gneiss",
+                   "tfcmu2:ore/poor_native_iridium/marble"
+               ]
+}

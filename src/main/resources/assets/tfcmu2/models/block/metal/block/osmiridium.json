@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "all":  "tfcmu2:block/metal/block/osmiridium"
+                 },
+    "parent":  "minecraft:block/cube_all"
+}

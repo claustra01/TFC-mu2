@@ -1,0 +1,16 @@
+{
+    "ingredient":  [
+                       {
+                           "tag":  "c:nails/antimony"
+                       },
+                       {
+                           "tag":  "c:rivets/antimony"
+                       },
+                       {
+                           "tag":  "c:screws/antimony"
+                       }
+                   ],
+    "heat_capacity":  0.24,
+    "forging_temperature":  378,
+    "welding_temperature":  504
+}

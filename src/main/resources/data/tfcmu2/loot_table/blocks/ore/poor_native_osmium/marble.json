@@ -1,0 +1,20 @@
+﻿{
+    "type":  "minecraft:block",
+    "random_sequence":  "tfcmu2:blocks/ore/poor_native_osmium/marble",
+    "pools":  [
+                  {
+                      "rolls":  1,
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "tfcmu2:ore/poor_native_osmium"
+                                      }
+                                  ],
+                      "conditions":  [
+                                         {
+                                             "condition":  "minecraft:survives_explosion"
+                                         }
+                                     ]
+                  }
+              ]
+}

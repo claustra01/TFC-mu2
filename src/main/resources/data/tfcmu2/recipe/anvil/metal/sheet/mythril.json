@@ -1,0 +1,16 @@
+{
+    "type":  "tfc:anvil",
+    "ingredient":  {
+                       "tag":  "c:double_ingots/mythril"
+                   },
+    "result":  {
+                   "count":  1,
+                   "id":  "tfcmu2:metal/sheet/mythril"
+               },
+    "rules":  [
+                  "hit_third_last",
+                  "hit_second_last",
+                  "hit_last"
+              ],
+    "tier":  2
+}

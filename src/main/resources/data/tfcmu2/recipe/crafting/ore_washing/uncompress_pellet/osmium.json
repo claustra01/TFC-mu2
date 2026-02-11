@@ -1,0 +1,27 @@
+{
+    "neoforge:conditions":  [
+                                {
+                                    "type":  "neoforge:mod_loaded",
+                                    "modid":  "tfcorewashing"
+                                }
+                            ],
+    "type":  "minecraft:crafting_shapeless",
+    "ingredients":  [
+                        {
+                            "tag":  "c:metal/pellet/osmium"
+                        },
+                        {
+                            "tag":  "c:metal/pellet/osmium"
+                        },
+                        {
+                            "tag":  "c:metal/pellet/osmium"
+                        },
+                        {
+                            "tag":  "c:metal/pellet/osmium"
+                        }
+                    ],
+    "result":  {
+                   "count":  1,
+                   "id":  "tfcmu2:metal/ingot/osmium"
+               }
+}

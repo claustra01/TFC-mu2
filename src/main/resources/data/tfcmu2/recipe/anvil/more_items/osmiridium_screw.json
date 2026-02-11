@@ -1,0 +1,22 @@
+{
+    "neoforge:conditions":  [
+                                {
+                                    "type":  "neoforge:mod_loaded",
+                                    "modid":  "tfc_items"
+                                }
+                            ],
+    "type":  "tfc:anvil",
+    "ingredient":  {
+                       "item":  "tfcmu2:metal/stamen/osmiridium"
+                   },
+    "result":  {
+                   "id":  "tfcmu2:metal/screw/osmiridium",
+                   "count":  5
+               },
+    "tier":  3,
+    "rules":  [
+                  "hit_any",
+                  "hit_any",
+                  "draw_last"
+              ]
+}

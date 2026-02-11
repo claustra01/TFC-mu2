@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "tfcmu2:block/ore/small_wolframite",
+        "y": 90
+      },
+      {
+        "model": "tfcmu2:block/ore/small_wolframite"
+      },
+      {
+        "model": "tfcmu2:block/ore/small_wolframite",
+        "y": 180
+      },
+      {
+        "model": "tfcmu2:block/ore/small_wolframite",
+        "y": 270
+      }
+    ]
+  }
+}

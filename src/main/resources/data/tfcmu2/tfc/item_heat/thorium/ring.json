@@ -1,0 +1,8 @@
+{
+    "ingredient":  {
+                       "tag":  "c:rings/thorium"
+                   },
+    "heat_capacity":  1.666,
+    "forging_temperature":  921,
+    "welding_temperature":  1228
+}

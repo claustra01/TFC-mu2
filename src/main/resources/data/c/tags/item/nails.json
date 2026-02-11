@@ -1,0 +1,16 @@
+{
+    "replace":  false,
+    "values":  [
+                   "#c:nails/compressed_iron",
+                   "#c:nails/platinum",
+                   "#c:nails/iridium",
+                   "#c:nails/osmium",
+                   "#c:nails/osmiridium",
+                   "#c:nails/mythril",
+                   "#c:nails/antimony",
+                   "#c:nails/tungsten",
+                   "#c:nails/solder",
+                   "#c:nails/thorium",
+                   "#c:nails/tungsten_steel"
+               ]
+}

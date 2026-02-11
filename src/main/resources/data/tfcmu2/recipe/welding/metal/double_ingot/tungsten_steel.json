@@ -1,0 +1,14 @@
+{
+    "type":  "tfc:welding",
+    "first_input":  {
+                        "tag":  "c:ingots/tungsten_steel"
+                    },
+    "second_input":  {
+                         "tag":  "c:ingots/tungsten_steel"
+                     },
+    "result":  {
+                   "count":  1,
+                   "id":  "tfcmu2:metal/double_ingot/tungsten_steel"
+               },
+    "tier":  3
+}

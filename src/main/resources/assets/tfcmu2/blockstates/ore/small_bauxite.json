@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "tfcmu2:block/ore/small_bauxite",
+        "y": 90
+      },
+      {
+        "model": "tfcmu2:block/ore/small_bauxite"
+      },
+      {
+        "model": "tfcmu2:block/ore/small_bauxite",
+        "y": 180
+      },
+      {
+        "model": "tfcmu2:block/ore/small_bauxite",
+        "y": 270
+      }
+    ]
+  }
+}

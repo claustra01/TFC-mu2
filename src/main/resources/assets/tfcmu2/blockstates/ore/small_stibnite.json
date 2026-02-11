@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "tfcmu2:block/ore/small_stibnite",
+        "y": 90
+      },
+      {
+        "model": "tfcmu2:block/ore/small_stibnite"
+      },
+      {
+        "model": "tfcmu2:block/ore/small_stibnite",
+        "y": 180
+      },
+      {
+        "model": "tfcmu2:block/ore/small_stibnite",
+        "y": 270
+      }
+    ]
+  }
+}

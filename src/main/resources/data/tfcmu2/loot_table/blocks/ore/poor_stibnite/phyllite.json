@@ -1,0 +1,20 @@
+﻿{
+    "type":  "minecraft:block",
+    "random_sequence":  "tfcmu2:blocks/ore/poor_stibnite/phyllite",
+    "pools":  [
+                  {
+                      "rolls":  1,
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "tfcmu2:ore/poor_stibnite"
+                                      }
+                                  ],
+                      "conditions":  [
+                                         {
+                                             "condition":  "minecraft:survives_explosion"
+                                         }
+                                     ]
+                  }
+              ]
+}

@@ -1,0 +1,25 @@
+﻿{
+    "values":  [
+                   "tfcmu2:ore/normal_galena/granite",
+                   "tfcmu2:ore/normal_galena/diorite",
+                   "tfcmu2:ore/normal_galena/gabbro",
+                   "tfcmu2:ore/normal_galena/shale",
+                   "tfcmu2:ore/normal_galena/claystone",
+                   "tfcmu2:ore/normal_galena/limestone",
+                   "tfcmu2:ore/normal_galena/conglomerate",
+                   "tfcmu2:ore/normal_galena/dolomite",
+                   "tfcmu2:ore/normal_galena/chert",
+                   "tfcmu2:ore/normal_galena/chalk",
+                   "tfcmu2:ore/normal_galena/tuff",
+                   "tfcmu2:ore/normal_galena/rhyolite",
+                   "tfcmu2:ore/normal_galena/basalt",
+                   "tfcmu2:ore/normal_galena/andesite",
+                   "tfcmu2:ore/normal_galena/dacite",
+                   "tfcmu2:ore/normal_galena/quartzite",
+                   "tfcmu2:ore/normal_galena/slate",
+                   "tfcmu2:ore/normal_galena/phyllite",
+                   "tfcmu2:ore/normal_galena/schist",
+                   "tfcmu2:ore/normal_galena/gneiss",
+                   "tfcmu2:ore/normal_galena/marble"
+               ]
+}

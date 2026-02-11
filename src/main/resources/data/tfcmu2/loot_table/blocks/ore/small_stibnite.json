@@ -1,0 +1,20 @@
+﻿{
+    "type":  "minecraft:block",
+    "random_sequence":  "tfcmu2:blocks/ore/small_stibnite",
+    "pools":  [
+                  {
+                      "rolls":  1,
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "tfcmu2:ore/small_stibnite"
+                                      }
+                                  ],
+                      "conditions":  [
+                                         {
+                                             "condition":  "minecraft:survives_explosion"
+                                         }
+                                     ]
+                  }
+              ]
+}

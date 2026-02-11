@@ -1,0 +1,16 @@
+{
+    "replace":  false,
+    "values":  [
+                   "#c:gears/compressed_iron",
+                   "#c:gears/platinum",
+                   "#c:gears/iridium",
+                   "#c:gears/osmium",
+                   "#c:gears/osmiridium",
+                   "#c:gears/mythril",
+                   "#c:gears/antimony",
+                   "#c:gears/tungsten",
+                   "#c:gears/solder",
+                   "#c:gears/thorium",
+                   "#c:gears/tungsten_steel"
+               ]
+}

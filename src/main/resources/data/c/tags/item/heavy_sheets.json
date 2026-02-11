@@ -1,0 +1,16 @@
+{
+    "replace":  false,
+    "values":  [
+                   "#c:heavy_sheets/compressed_iron",
+                   "#c:heavy_sheets/platinum",
+                   "#c:heavy_sheets/iridium",
+                   "#c:heavy_sheets/osmium",
+                   "#c:heavy_sheets/osmiridium",
+                   "#c:heavy_sheets/mythril",
+                   "#c:heavy_sheets/antimony",
+                   "#c:heavy_sheets/tungsten",
+                   "#c:heavy_sheets/solder",
+                   "#c:heavy_sheets/thorium",
+                   "#c:heavy_sheets/tungsten_steel"
+               ]
+}

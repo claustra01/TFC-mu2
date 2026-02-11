@@ -1,0 +1,16 @@
+{
+    "ingredient":  [
+                       {
+                           "tag":  "c:nails/osmium"
+                       },
+                       {
+                           "tag":  "c:rivets/osmium"
+                       },
+                       {
+                           "tag":  "c:screws/osmium"
+                       }
+                   ],
+    "heat_capacity":  0.171,
+    "forging_temperature":  921,
+    "welding_temperature":  1228
+}

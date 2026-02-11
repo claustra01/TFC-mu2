@@ -1,0 +1,16 @@
+{
+    "replace":  false,
+    "values":  [
+                   "#c:rings/compressed_iron",
+                   "#c:rings/platinum",
+                   "#c:rings/iridium",
+                   "#c:rings/osmium",
+                   "#c:rings/osmiridium",
+                   "#c:rings/mythril",
+                   "#c:rings/antimony",
+                   "#c:rings/tungsten",
+                   "#c:rings/solder",
+                   "#c:rings/thorium",
+                   "#c:rings/tungsten_steel"
+               ]
+}

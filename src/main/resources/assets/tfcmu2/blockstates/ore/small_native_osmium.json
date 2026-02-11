@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "tfcmu2:block/ore/small_native_osmium",
+        "y": 90
+      },
+      {
+        "model": "tfcmu2:block/ore/small_native_osmium"
+      },
+      {
+        "model": "tfcmu2:block/ore/small_native_osmium",
+        "y": 180
+      },
+      {
+        "model": "tfcmu2:block/ore/small_native_osmium",
+        "y": 270
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+    "type":  "tfc:welding",
+    "first_input":  {
+                        "tag":  "c:sheets/iridium"
+                    },
+    "second_input":  {
+                         "tag":  "c:sheets/iridium"
+                     },
+    "result":  {
+                   "count":  1,
+                   "id":  "tfcmu2:metal/double_sheet/iridium"
+               },
+    "tier":  2
+}

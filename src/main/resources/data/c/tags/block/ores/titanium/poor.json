@@ -1,0 +1,25 @@
+﻿{
+    "values":  [
+                   "tfcmu2:ore/poor_rutile/granite",
+                   "tfcmu2:ore/poor_rutile/diorite",
+                   "tfcmu2:ore/poor_rutile/gabbro",
+                   "tfcmu2:ore/poor_rutile/shale",
+                   "tfcmu2:ore/poor_rutile/claystone",
+                   "tfcmu2:ore/poor_rutile/limestone",
+                   "tfcmu2:ore/poor_rutile/conglomerate",
+                   "tfcmu2:ore/poor_rutile/dolomite",
+                   "tfcmu2:ore/poor_rutile/chert",
+                   "tfcmu2:ore/poor_rutile/chalk",
+                   "tfcmu2:ore/poor_rutile/tuff",
+                   "tfcmu2:ore/poor_rutile/rhyolite",
+                   "tfcmu2:ore/poor_rutile/basalt",
+                   "tfcmu2:ore/poor_rutile/andesite",
+                   "tfcmu2:ore/poor_rutile/dacite",
+                   "tfcmu2:ore/poor_rutile/quartzite",
+                   "tfcmu2:ore/poor_rutile/slate",
+                   "tfcmu2:ore/poor_rutile/phyllite",
+                   "tfcmu2:ore/poor_rutile/schist",
+                   "tfcmu2:ore/poor_rutile/gneiss",
+                   "tfcmu2:ore/poor_rutile/marble"
+               ]
+}

@@ -1,0 +1,25 @@
+﻿{
+    "values":  [
+                   "tfcmu2:ore/normal_kernite/granite",
+                   "tfcmu2:ore/normal_kernite/diorite",
+                   "tfcmu2:ore/normal_kernite/gabbro",
+                   "tfcmu2:ore/normal_kernite/shale",
+                   "tfcmu2:ore/normal_kernite/claystone",
+                   "tfcmu2:ore/normal_kernite/limestone",
+                   "tfcmu2:ore/normal_kernite/conglomerate",
+                   "tfcmu2:ore/normal_kernite/dolomite",
+                   "tfcmu2:ore/normal_kernite/chert",
+                   "tfcmu2:ore/normal_kernite/chalk",
+                   "tfcmu2:ore/normal_kernite/tuff",
+                   "tfcmu2:ore/normal_kernite/rhyolite",
+                   "tfcmu2:ore/normal_kernite/basalt",
+                   "tfcmu2:ore/normal_kernite/andesite",
+                   "tfcmu2:ore/normal_kernite/dacite",
+                   "tfcmu2:ore/normal_kernite/quartzite",
+                   "tfcmu2:ore/normal_kernite/slate",
+                   "tfcmu2:ore/normal_kernite/phyllite",
+                   "tfcmu2:ore/normal_kernite/schist",
+                   "tfcmu2:ore/normal_kernite/gneiss",
+                   "tfcmu2:ore/normal_kernite/marble"
+               ]
+}

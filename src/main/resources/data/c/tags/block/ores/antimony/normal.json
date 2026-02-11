@@ -1,0 +1,25 @@
+﻿{
+    "values":  [
+                   "tfcmu2:ore/normal_stibnite/granite",
+                   "tfcmu2:ore/normal_stibnite/diorite",
+                   "tfcmu2:ore/normal_stibnite/gabbro",
+                   "tfcmu2:ore/normal_stibnite/shale",
+                   "tfcmu2:ore/normal_stibnite/claystone",
+                   "tfcmu2:ore/normal_stibnite/limestone",
+                   "tfcmu2:ore/normal_stibnite/conglomerate",
+                   "tfcmu2:ore/normal_stibnite/dolomite",
+                   "tfcmu2:ore/normal_stibnite/chert",
+                   "tfcmu2:ore/normal_stibnite/chalk",
+                   "tfcmu2:ore/normal_stibnite/tuff",
+                   "tfcmu2:ore/normal_stibnite/rhyolite",
+                   "tfcmu2:ore/normal_stibnite/basalt",
+                   "tfcmu2:ore/normal_stibnite/andesite",
+                   "tfcmu2:ore/normal_stibnite/dacite",
+                   "tfcmu2:ore/normal_stibnite/quartzite",
+                   "tfcmu2:ore/normal_stibnite/slate",
+                   "tfcmu2:ore/normal_stibnite/phyllite",
+                   "tfcmu2:ore/normal_stibnite/schist",
+                   "tfcmu2:ore/normal_stibnite/gneiss",
+                   "tfcmu2:ore/normal_stibnite/marble"
+               ]
+}

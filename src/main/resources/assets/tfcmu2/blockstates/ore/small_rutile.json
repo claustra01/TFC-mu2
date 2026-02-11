@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "tfcmu2:block/ore/small_rutile",
+        "y": 90
+      },
+      {
+        "model": "tfcmu2:block/ore/small_rutile"
+      },
+      {
+        "model": "tfcmu2:block/ore/small_rutile",
+        "y": 180
+      },
+      {
+        "model": "tfcmu2:block/ore/small_rutile",
+        "y": 270
+      }
+    ]
+  }
+}

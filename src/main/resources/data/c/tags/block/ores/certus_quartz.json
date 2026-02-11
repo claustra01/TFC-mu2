@@ -1,0 +1,25 @@
+﻿{
+    "values":  [
+                   "tfcmu2:ore/certus_quartz/granite",
+                   "tfcmu2:ore/certus_quartz/diorite",
+                   "tfcmu2:ore/certus_quartz/gabbro",
+                   "tfcmu2:ore/certus_quartz/shale",
+                   "tfcmu2:ore/certus_quartz/claystone",
+                   "tfcmu2:ore/certus_quartz/limestone",
+                   "tfcmu2:ore/certus_quartz/conglomerate",
+                   "tfcmu2:ore/certus_quartz/dolomite",
+                   "tfcmu2:ore/certus_quartz/chert",
+                   "tfcmu2:ore/certus_quartz/chalk",
+                   "tfcmu2:ore/certus_quartz/tuff",
+                   "tfcmu2:ore/certus_quartz/rhyolite",
+                   "tfcmu2:ore/certus_quartz/basalt",
+                   "tfcmu2:ore/certus_quartz/andesite",
+                   "tfcmu2:ore/certus_quartz/dacite",
+                   "tfcmu2:ore/certus_quartz/quartzite",
+                   "tfcmu2:ore/certus_quartz/slate",
+                   "tfcmu2:ore/certus_quartz/phyllite",
+                   "tfcmu2:ore/certus_quartz/schist",
+                   "tfcmu2:ore/certus_quartz/gneiss",
+                   "tfcmu2:ore/certus_quartz/marble"
+               ]
+}

@@ -1,0 +1,27 @@
+{
+    "neoforge:conditions":  [
+                                {
+                                    "type":  "neoforge:mod_loaded",
+                                    "modid":  "tfcorewashing"
+                                }
+                            ],
+    "type":  "minecraft:crafting_shapeless",
+    "ingredients":  [
+                        {
+                            "tag":  "c:metal/pellet/thorium"
+                        },
+                        {
+                            "tag":  "c:metal/pellet/thorium"
+                        },
+                        {
+                            "tag":  "c:metal/pellet/thorium"
+                        },
+                        {
+                            "tag":  "c:metal/pellet/thorium"
+                        }
+                    ],
+    "result":  {
+                   "count":  1,
+                   "id":  "tfcmu2:metal/ingot/thorium"
+               }
+}

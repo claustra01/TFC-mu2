@@ -1,0 +1,25 @@
+﻿{
+    "values":  [
+                   "tfcmu2:ore/rich_bauxite/granite",
+                   "tfcmu2:ore/rich_bauxite/diorite",
+                   "tfcmu2:ore/rich_bauxite/gabbro",
+                   "tfcmu2:ore/rich_bauxite/shale",
+                   "tfcmu2:ore/rich_bauxite/claystone",
+                   "tfcmu2:ore/rich_bauxite/limestone",
+                   "tfcmu2:ore/rich_bauxite/conglomerate",
+                   "tfcmu2:ore/rich_bauxite/dolomite",
+                   "tfcmu2:ore/rich_bauxite/chert",
+                   "tfcmu2:ore/rich_bauxite/chalk",
+                   "tfcmu2:ore/rich_bauxite/tuff",
+                   "tfcmu2:ore/rich_bauxite/rhyolite",
+                   "tfcmu2:ore/rich_bauxite/basalt",
+                   "tfcmu2:ore/rich_bauxite/andesite",
+                   "tfcmu2:ore/rich_bauxite/dacite",
+                   "tfcmu2:ore/rich_bauxite/quartzite",
+                   "tfcmu2:ore/rich_bauxite/slate",
+                   "tfcmu2:ore/rich_bauxite/phyllite",
+                   "tfcmu2:ore/rich_bauxite/schist",
+                   "tfcmu2:ore/rich_bauxite/gneiss",
+                   "tfcmu2:ore/rich_bauxite/marble"
+               ]
+}

@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "all":  "tfcmu2:block/metal/block/antimony"
+                 },
+    "parent":  "minecraft:block/cube_all"
+}

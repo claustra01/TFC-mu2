@@ -1,0 +1,22 @@
+{
+    "neoforge:conditions":  [
+                                {
+                                    "type":  "neoforge:mod_loaded",
+                                    "modid":  "tfc_items"
+                                }
+                            ],
+    "type":  "tfc:anvil",
+    "ingredient":  {
+                       "item":  "tfcmu2:metal/stamen/osmium"
+                   },
+    "result":  {
+                   "id":  "tfcmu2:metal/nail/osmium",
+                   "count":  5
+               },
+    "tier":  3,
+    "rules":  [
+                  "punch_last",
+                  "hit_not_last",
+                  "bend_not_last"
+              ]
+}

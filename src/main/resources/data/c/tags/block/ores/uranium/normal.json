@@ -1,0 +1,25 @@
+﻿{
+    "values":  [
+                   "tfcmu2:ore/normal_uraninite/granite",
+                   "tfcmu2:ore/normal_uraninite/diorite",
+                   "tfcmu2:ore/normal_uraninite/gabbro",
+                   "tfcmu2:ore/normal_uraninite/shale",
+                   "tfcmu2:ore/normal_uraninite/claystone",
+                   "tfcmu2:ore/normal_uraninite/limestone",
+                   "tfcmu2:ore/normal_uraninite/conglomerate",
+                   "tfcmu2:ore/normal_uraninite/dolomite",
+                   "tfcmu2:ore/normal_uraninite/chert",
+                   "tfcmu2:ore/normal_uraninite/chalk",
+                   "tfcmu2:ore/normal_uraninite/tuff",
+                   "tfcmu2:ore/normal_uraninite/rhyolite",
+                   "tfcmu2:ore/normal_uraninite/basalt",
+                   "tfcmu2:ore/normal_uraninite/andesite",
+                   "tfcmu2:ore/normal_uraninite/dacite",
+                   "tfcmu2:ore/normal_uraninite/quartzite",
+                   "tfcmu2:ore/normal_uraninite/slate",
+                   "tfcmu2:ore/normal_uraninite/phyllite",
+                   "tfcmu2:ore/normal_uraninite/schist",
+                   "tfcmu2:ore/normal_uraninite/gneiss",
+                   "tfcmu2:ore/normal_uraninite/marble"
+               ]
+}

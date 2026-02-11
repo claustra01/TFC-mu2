@@ -1,0 +1,19 @@
+{
+    "neoforge:conditions":  [
+                                {
+                                    "type":  "neoforge:mod_loaded",
+                                    "modid":  "tfc_items"
+                                }
+                            ],
+    "type":  "tfc:welding",
+    "first_input":  {
+                        "tag":  "c:double_sheets/thorium"
+                    },
+    "second_input":  {
+                         "tag":  "c:sheets/thorium"
+                     },
+    "tier":  1,
+    "result":  {
+                   "id":  "tfcmu2:metal/heavy_sheet/thorium"
+               }
+}

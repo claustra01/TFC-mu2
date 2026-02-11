@@ -1,0 +1,16 @@
+{
+    "replace":  false,
+    "values":  [
+                   "#c:wires/compressed_iron",
+                   "#c:wires/platinum",
+                   "#c:wires/iridium",
+                   "#c:wires/osmium",
+                   "#c:wires/osmiridium",
+                   "#c:wires/mythril",
+                   "#c:wires/antimony",
+                   "#c:wires/tungsten",
+                   "#c:wires/solder",
+                   "#c:wires/thorium",
+                   "#c:wires/tungsten_steel"
+               ]
+}

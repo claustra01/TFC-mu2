@@ -1,0 +1,14 @@
+{
+    "type":  "tfc:welding",
+    "first_input":  {
+                        "tag":  "c:ingots/osmium"
+                    },
+    "second_input":  {
+                         "tag":  "c:ingots/osmium"
+                     },
+    "result":  {
+                   "count":  1,
+                   "id":  "tfcmu2:metal/double_ingot/osmium"
+               },
+    "tier":  2
+}

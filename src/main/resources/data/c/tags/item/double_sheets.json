@@ -1,0 +1,15 @@
+{
+    "values":  [
+                   "#c:double_sheets/compressed_iron",
+                   "#c:double_sheets/platinum",
+                   "#c:double_sheets/iridium",
+                   "#c:double_sheets/osmium",
+                   "#c:double_sheets/osmiridium",
+                   "#c:double_sheets/mythril",
+                   "#c:double_sheets/antimony",
+                   "#c:double_sheets/tungsten",
+                   "#c:double_sheets/solder",
+                   "#c:double_sheets/thorium",
+                   "#c:double_sheets/tungsten_steel"
+               ]
+}

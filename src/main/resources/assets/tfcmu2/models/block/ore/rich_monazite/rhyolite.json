@@ -1,0 +1,8 @@
+{
+  "parent": "tfc:block/ore",
+  "textures": {
+    "all": "tfc:block/rock/raw/rhyolite",
+    "particle": "tfc:block/rock/raw/rhyolite",
+    "overlay": "tfcmu2:block/ore/rich_monazite"
+  }
+}

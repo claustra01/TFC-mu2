@@ -1,0 +1,25 @@
+﻿{
+    "values":  [
+                   "tfcmu2:ore/rich_wolframite/granite",
+                   "tfcmu2:ore/rich_wolframite/diorite",
+                   "tfcmu2:ore/rich_wolframite/gabbro",
+                   "tfcmu2:ore/rich_wolframite/shale",
+                   "tfcmu2:ore/rich_wolframite/claystone",
+                   "tfcmu2:ore/rich_wolframite/limestone",
+                   "tfcmu2:ore/rich_wolframite/conglomerate",
+                   "tfcmu2:ore/rich_wolframite/dolomite",
+                   "tfcmu2:ore/rich_wolframite/chert",
+                   "tfcmu2:ore/rich_wolframite/chalk",
+                   "tfcmu2:ore/rich_wolframite/tuff",
+                   "tfcmu2:ore/rich_wolframite/rhyolite",
+                   "tfcmu2:ore/rich_wolframite/basalt",
+                   "tfcmu2:ore/rich_wolframite/andesite",
+                   "tfcmu2:ore/rich_wolframite/dacite",
+                   "tfcmu2:ore/rich_wolframite/quartzite",
+                   "tfcmu2:ore/rich_wolframite/slate",
+                   "tfcmu2:ore/rich_wolframite/phyllite",
+                   "tfcmu2:ore/rich_wolframite/schist",
+                   "tfcmu2:ore/rich_wolframite/gneiss",
+                   "tfcmu2:ore/rich_wolframite/marble"
+               ]
+}

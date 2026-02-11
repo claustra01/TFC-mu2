@@ -1,0 +1,20 @@
+﻿{
+    "type":  "minecraft:block",
+    "random_sequence":  "tfcmu2:blocks/ore/normal_bauxite/limestone",
+    "pools":  [
+                  {
+                      "rolls":  1,
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "tfcmu2:ore/normal_bauxite"
+                                      }
+                                  ],
+                      "conditions":  [
+                                         {
+                                             "condition":  "minecraft:survives_explosion"
+                                         }
+                                     ]
+                  }
+              ]
+}

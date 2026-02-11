@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "all":  "tfcmu2:block/metal/block/mythril"
+                 },
+    "parent":  "minecraft:block/cube_all"
+}

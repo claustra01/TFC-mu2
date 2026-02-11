@@ -1,0 +1,16 @@
+{
+    "replace":  false,
+    "values":  [
+                   "#c:rivets/compressed_iron",
+                   "#c:rivets/platinum",
+                   "#c:rivets/iridium",
+                   "#c:rivets/osmium",
+                   "#c:rivets/osmiridium",
+                   "#c:rivets/mythril",
+                   "#c:rivets/antimony",
+                   "#c:rivets/tungsten",
+                   "#c:rivets/solder",
+                   "#c:rivets/thorium",
+                   "#c:rivets/tungsten_steel"
+               ]
+}

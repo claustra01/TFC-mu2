@@ -1,0 +1,14 @@
+{
+    "type":  "tfc:welding",
+    "first_input":  {
+                        "tag":  "c:sheets/platinum"
+                    },
+    "second_input":  {
+                         "tag":  "c:sheets/platinum"
+                     },
+    "result":  {
+                   "count":  1,
+                   "id":  "tfcmu2:metal/double_sheet/platinum"
+               },
+    "tier":  3
+}

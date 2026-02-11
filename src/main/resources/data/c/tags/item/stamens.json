@@ -1,0 +1,16 @@
+{
+    "replace":  false,
+    "values":  [
+                   "#c:stamens/compressed_iron",
+                   "#c:stamens/platinum",
+                   "#c:stamens/iridium",
+                   "#c:stamens/osmium",
+                   "#c:stamens/osmiridium",
+                   "#c:stamens/mythril",
+                   "#c:stamens/antimony",
+                   "#c:stamens/tungsten",
+                   "#c:stamens/solder",
+                   "#c:stamens/thorium",
+                   "#c:stamens/tungsten_steel"
+               ]
+}

@@ -1,0 +1,16 @@
+{
+    "replace":  false,
+    "values":  [
+                   "#c:foils/compressed_iron",
+                   "#c:foils/platinum",
+                   "#c:foils/iridium",
+                   "#c:foils/osmium",
+                   "#c:foils/osmiridium",
+                   "#c:foils/mythril",
+                   "#c:foils/antimony",
+                   "#c:foils/tungsten",
+                   "#c:foils/solder",
+                   "#c:foils/thorium",
+                   "#c:foils/tungsten_steel"
+               ]
+}

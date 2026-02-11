@@ -1,0 +1,27 @@
+{
+    "neoforge:conditions":  [
+                                {
+                                    "type":  "neoforge:mod_loaded",
+                                    "modid":  "tfcorewashing"
+                                }
+                            ],
+    "type":  "minecraft:crafting_shapeless",
+    "ingredients":  [
+                        {
+                            "tag":  "c:metal/pellet/mythril"
+                        },
+                        {
+                            "tag":  "c:metal/pellet/mythril"
+                        },
+                        {
+                            "tag":  "c:metal/pellet/mythril"
+                        },
+                        {
+                            "tag":  "c:metal/pellet/mythril"
+                        }
+                    ],
+    "result":  {
+                   "count":  1,
+                   "id":  "tfcmu2:metal/ingot/mythril"
+               }
+}

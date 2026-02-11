@@ -1,0 +1,19 @@
+{
+    "neoforge:conditions":  [
+                                {
+                                    "type":  "neoforge:mod_loaded",
+                                    "modid":  "tfcorewashing"
+                                }
+                            ],
+    "type":  "tfc:heating",
+    "ingredient":  [
+                       {
+                           "tag":  "c:metal/pellet/thorium"
+                       }
+                   ],
+    "result_fluid":  {
+                         "id":  "tfc:metal/thorium",
+                         "amount":  25
+                     },
+    "temperature":  1535
+}

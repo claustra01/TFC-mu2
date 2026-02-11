@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "tfcmu2:block/ore/small_galena",
+        "y": 90
+      },
+      {
+        "model": "tfcmu2:block/ore/small_galena"
+      },
+      {
+        "model": "tfcmu2:block/ore/small_galena",
+        "y": 180
+      },
+      {
+        "model": "tfcmu2:block/ore/small_galena",
+        "y": 270
+      }
+    ]
+  }
+}

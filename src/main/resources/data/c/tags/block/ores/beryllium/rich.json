@@ -1,0 +1,25 @@
+﻿{
+    "values":  [
+                   "tfcmu2:ore/rich_bertrandite/granite",
+                   "tfcmu2:ore/rich_bertrandite/diorite",
+                   "tfcmu2:ore/rich_bertrandite/gabbro",
+                   "tfcmu2:ore/rich_bertrandite/shale",
+                   "tfcmu2:ore/rich_bertrandite/claystone",
+                   "tfcmu2:ore/rich_bertrandite/limestone",
+                   "tfcmu2:ore/rich_bertrandite/conglomerate",
+                   "tfcmu2:ore/rich_bertrandite/dolomite",
+                   "tfcmu2:ore/rich_bertrandite/chert",
+                   "tfcmu2:ore/rich_bertrandite/chalk",
+                   "tfcmu2:ore/rich_bertrandite/tuff",
+                   "tfcmu2:ore/rich_bertrandite/rhyolite",
+                   "tfcmu2:ore/rich_bertrandite/basalt",
+                   "tfcmu2:ore/rich_bertrandite/andesite",
+                   "tfcmu2:ore/rich_bertrandite/dacite",
+                   "tfcmu2:ore/rich_bertrandite/quartzite",
+                   "tfcmu2:ore/rich_bertrandite/slate",
+                   "tfcmu2:ore/rich_bertrandite/phyllite",
+                   "tfcmu2:ore/rich_bertrandite/schist",
+                   "tfcmu2:ore/rich_bertrandite/gneiss",
+                   "tfcmu2:ore/rich_bertrandite/marble"
+               ]
+}

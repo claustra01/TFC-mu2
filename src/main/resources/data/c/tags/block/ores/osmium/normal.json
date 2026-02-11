@@ -1,0 +1,25 @@
+﻿{
+    "values":  [
+                   "tfcmu2:ore/normal_native_osmium/granite",
+                   "tfcmu2:ore/normal_native_osmium/diorite",
+                   "tfcmu2:ore/normal_native_osmium/gabbro",
+                   "tfcmu2:ore/normal_native_osmium/shale",
+                   "tfcmu2:ore/normal_native_osmium/claystone",
+                   "tfcmu2:ore/normal_native_osmium/limestone",
+                   "tfcmu2:ore/normal_native_osmium/conglomerate",
+                   "tfcmu2:ore/normal_native_osmium/dolomite",
+                   "tfcmu2:ore/normal_native_osmium/chert",
+                   "tfcmu2:ore/normal_native_osmium/chalk",
+                   "tfcmu2:ore/normal_native_osmium/tuff",
+                   "tfcmu2:ore/normal_native_osmium/rhyolite",
+                   "tfcmu2:ore/normal_native_osmium/basalt",
+                   "tfcmu2:ore/normal_native_osmium/andesite",
+                   "tfcmu2:ore/normal_native_osmium/dacite",
+                   "tfcmu2:ore/normal_native_osmium/quartzite",
+                   "tfcmu2:ore/normal_native_osmium/slate",
+                   "tfcmu2:ore/normal_native_osmium/phyllite",
+                   "tfcmu2:ore/normal_native_osmium/schist",
+                   "tfcmu2:ore/normal_native_osmium/gneiss",
+                   "tfcmu2:ore/normal_native_osmium/marble"
+               ]
+}
