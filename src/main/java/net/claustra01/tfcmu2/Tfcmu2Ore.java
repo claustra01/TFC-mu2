@@ -9,20 +9,12 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.MapColor;
 
 public enum Tfcmu2Ore {
-    BAUXITE(true, "aluminum"),
-    BERTRANDITE(true, "beryllium"),
-    COBALTITE(true, "cobalt"),
-    KERNITE(true, "boron"),
-    GALENA(true, "lead"),
-    MONAZITE(true, "thorium"),
-    NATIVE_OSMIUM(true, "osmium"),
-    NATIVE_IRIDIUM(true, "iridium"),
     NATIVE_PLATINUM(true, "platinum"),
+    NATIVE_IRIDIUM(true, "iridium"),
+    NATIVE_OSMIUM(true, "osmium"),
     RUTILE(true, "titanium"),
     STIBNITE(true, "antimony"),
-    URANINITE(true, "uranium"),
-    WOLFRAMITE(true, "tungsten"),
-    CERTUS_QUARTZ(false, "certus_quartz");
+    WOLFRAMITE(true, "tungsten");
 
     public static final Tfcmu2Ore[] VALUES = values();
 
