@@ -1,5 +1,8 @@
-{
+﻿{
     "values":  [
-                   "tfcmu2:metal/rivet/iridium"
+                   {
+                       "id":  "tfcmu2:metal/rivet/iridium",
+                       "required":  false
+                   }
                ]
 }

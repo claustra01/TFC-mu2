@@ -1,5 +1,8 @@
-{
+﻿{
     "values":  [
-                   "tfcmu2:metal/stamen/solder"
+                   {
+                       "id":  "tfcmu2:metal/stamen/solder",
+                       "required":  false
+                   }
                ]
 }

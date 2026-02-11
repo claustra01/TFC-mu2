@@ -1,5 +1,8 @@
-{
+﻿{
     "values":  [
-                   "tfcmu2:metal/foil/tungsten"
+                   {
+                       "id":  "tfcmu2:metal/foil/tungsten",
+                       "required":  false
+                   }
                ]
 }

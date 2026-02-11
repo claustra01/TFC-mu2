@@ -1,0 +1,11 @@
+﻿{
+    "type":  "tfc:heating",
+    "ingredient":  {
+                       "tag":  "c:sheets/mythril"
+                   },
+    "result_fluid":  {
+                         "amount":  200,
+                         "id":  "tfc:metal/mythril"
+                     },
+    "temperature":  940
+}

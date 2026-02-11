@@ -1,5 +1,8 @@
-{
+﻿{
     "values":  [
-                   "tfcmu2:metal/rivet/osmiridium"
+                   {
+                       "id":  "tfcmu2:metal/rivet/osmiridium",
+                       "required":  false
+                   }
                ]
 }

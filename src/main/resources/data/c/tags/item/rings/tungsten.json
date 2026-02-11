@@ -1,5 +1,8 @@
-{
+﻿{
     "values":  [
-                   "tfcmu2:metal/ring/tungsten"
+                   {
+                       "id":  "tfcmu2:metal/ring/tungsten",
+                       "required":  false
+                   }
                ]
 }

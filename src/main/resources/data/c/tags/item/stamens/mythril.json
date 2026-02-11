@@ -1,5 +1,8 @@
-{
+﻿{
     "values":  [
-                   "tfcmu2:metal/stamen/mythril"
+                   {
+                       "id":  "tfcmu2:metal/stamen/mythril",
+                       "required":  false
+                   }
                ]
 }

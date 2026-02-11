@@ -1,0 +1,11 @@
+﻿{
+    "type":  "tfc:heating",
+    "ingredient":  {
+                       "tag":  "c:double_ingots/tungsten_steel"
+                   },
+    "result_fluid":  {
+                         "amount":  200,
+                         "id":  "tfc:metal/tungsten_steel"
+                     },
+    "temperature":  1535
+}

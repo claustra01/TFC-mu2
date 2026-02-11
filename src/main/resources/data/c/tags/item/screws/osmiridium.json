@@ -1,5 +1,8 @@
-{
+﻿{
     "values":  [
-                   "tfcmu2:metal/screw/osmiridium"
+                   {
+                       "id":  "tfcmu2:metal/screw/osmiridium",
+                       "required":  false
+                   }
                ]
 }

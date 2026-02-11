@@ -22,6 +22,7 @@ public final class Tfcmu2Items {
     public static final Map<Tfcmu2Metal, DeferredItem<Item>> METAL_DOUBLE_INGOTS = registerMetalItems("double_ingot", Metal.ItemType.DOUBLE_INGOT);
     public static final Map<Tfcmu2Metal, DeferredItem<Item>> METAL_SHEETS = registerMetalItems("sheet", Metal.ItemType.SHEET);
     public static final Map<Tfcmu2Metal, DeferredItem<Item>> METAL_DOUBLE_SHEETS = registerMetalItems("double_sheet", Metal.ItemType.DOUBLE_SHEET);
+    public static final Map<Tfcmu2Metal, DeferredItem<Item>> METAL_RODS = registerMetalItems("rod", Metal.ItemType.ROD);
     public static final Map<Tfcmu2Metal, Map<Tfcmu2MoreItemType, DeferredItem<Item>>> MORE_METAL_ITEMS = TFC_MORE_ITEMS_LOADED
         ? registerMoreMetalItems()
         : Collections.emptyMap();
@@ -107,7 +108,6 @@ public final class Tfcmu2Items {
         NAIL("nail"),
         RING("ring"),
         RIVET("rivet"),
-        ROD("rod"),
         SCREW("screw"),
         STAMEN("stamen"),
         WIRE("wire");

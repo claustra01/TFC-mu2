@@ -1,5 +1,8 @@
-{
+﻿{
     "values":  [
-                   "tfcmu2:metal/nail/mythril"
+                   {
+                       "id":  "tfcmu2:metal/nail/mythril",
+                       "required":  false
+                   }
                ]
 }

@@ -1,5 +1,8 @@
-{
+﻿{
     "values":  [
-                   "tfcmu2:metal/nail/platinum"
+                   {
+                       "id":  "tfcmu2:metal/nail/platinum",
+                       "required":  false
+                   }
                ]
 }

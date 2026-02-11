@@ -1,5 +1,8 @@
-{
+﻿{
     "values":  [
-                   "tfcmu2:metal/screw/compressed_iron"
+                   {
+                       "id":  "tfcmu2:metal/screw/compressed_iron",
+                       "required":  false
+                   }
                ]
 }

@@ -1,5 +1,8 @@
-{
+﻿{
     "values":  [
-                   "tfcmu2:metal/heavy_sheet/tungsten"
+                   {
+                       "id":  "tfcmu2:metal/heavy_sheet/tungsten",
+                       "required":  false
+                   }
                ]
 }

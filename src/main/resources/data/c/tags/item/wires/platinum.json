@@ -1,5 +1,8 @@
-{
+﻿{
     "values":  [
-                   "tfcmu2:metal/wire/platinum"
+                   {
+                       "id":  "tfcmu2:metal/wire/platinum",
+                       "required":  false
+                   }
                ]
 }

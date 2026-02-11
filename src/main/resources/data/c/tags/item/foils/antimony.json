@@ -1,5 +1,8 @@
-{
+﻿{
     "values":  [
-                   "tfcmu2:metal/foil/antimony"
+                   {
+                       "id":  "tfcmu2:metal/foil/antimony",
+                       "required":  false
+                   }
                ]
 }

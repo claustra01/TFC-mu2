@@ -1,5 +1,8 @@
-{
+﻿{
     "values":  [
-                   "tfcmu2:metal/rivet/compressed_iron"
+                   {
+                       "id":  "tfcmu2:metal/rivet/compressed_iron",
+                       "required":  false
+                   }
                ]
 }

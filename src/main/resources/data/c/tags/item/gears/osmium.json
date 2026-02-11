@@ -1,5 +1,8 @@
-{
+﻿{
     "values":  [
-                   "tfcmu2:metal/gear/osmium"
+                   {
+                       "id":  "tfcmu2:metal/gear/osmium",
+                       "required":  false
+                   }
                ]
 }

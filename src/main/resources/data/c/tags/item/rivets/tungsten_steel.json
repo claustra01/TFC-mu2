@@ -1,5 +1,8 @@
-{
+﻿{
     "values":  [
-                   "tfcmu2:metal/rivet/tungsten_steel"
+                   {
+                       "id":  "tfcmu2:metal/rivet/tungsten_steel",
+                       "required":  false
+                   }
                ]
 }

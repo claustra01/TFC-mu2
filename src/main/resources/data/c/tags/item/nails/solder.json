@@ -1,5 +1,8 @@
-{
+﻿{
     "values":  [
-                   "tfcmu2:metal/nail/solder"
+                   {
+                       "id":  "tfcmu2:metal/nail/solder",
+                       "required":  false
+                   }
                ]
 }

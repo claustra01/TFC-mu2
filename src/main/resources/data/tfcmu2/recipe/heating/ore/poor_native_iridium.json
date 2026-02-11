@@ -1,0 +1,11 @@
+﻿{
+    "type":  "tfc:heating",
+    "ingredient":  {
+                       "item":  "tfcmu2:ore/poor_native_iridium"
+                   },
+    "result_fluid":  {
+                         "amount":  15,
+                         "id":  "tfc:metal/iridium"
+                     },
+    "temperature":  2490
+}

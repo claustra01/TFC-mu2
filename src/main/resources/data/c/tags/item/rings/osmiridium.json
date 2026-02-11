@@ -1,5 +1,8 @@
-{
+﻿{
     "values":  [
-                   "tfcmu2:metal/ring/osmiridium"
+                   {
+                       "id":  "tfcmu2:metal/ring/osmiridium",
+                       "required":  false
+                   }
                ]
 }

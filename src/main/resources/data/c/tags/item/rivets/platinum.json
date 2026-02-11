@@ -1,5 +1,8 @@
-{
+﻿{
     "values":  [
-                   "tfcmu2:metal/rivet/platinum"
+                   {
+                       "id":  "tfcmu2:metal/rivet/platinum",
+                       "required":  false
+                   }
                ]
 }

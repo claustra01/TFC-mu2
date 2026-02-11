@@ -1,0 +1,11 @@
+﻿{
+    "type":  "tfc:heating",
+    "ingredient":  {
+                       "tag":  "c:double_ingots/compressed_iron"
+                   },
+    "result_fluid":  {
+                         "amount":  200,
+                         "id":  "tfc:metal/compressed_iron"
+                     },
+    "temperature":  1535
+}
