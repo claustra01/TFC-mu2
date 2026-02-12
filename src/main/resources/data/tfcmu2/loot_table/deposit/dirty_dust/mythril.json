@@ -1,0 +1,1 @@
+﻿{"type":"minecraft:fishing","pools":[{"name":"loot_pool","rolls":1,"entries":[{"type":"minecraft:tag","name":"c:metal/powder/mythril","expand":true}]},{"name":"loot_pool","rolls":1,"entries":[{"type":"minecraft:tag","name":"c:metal/dirty_pile/mythril","expand":true,"conditions":[{"condition":"minecraft:random_chance","chance":0.25}]}]}]}

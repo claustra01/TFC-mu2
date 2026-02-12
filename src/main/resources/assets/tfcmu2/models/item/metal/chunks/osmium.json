@@ -1,6 +1,6 @@
 ﻿{
     "parent":  "item/generated",
     "textures":  {
-                     "layer0":  "tfcmu2:item/metal/pellet/osmium"
+                     "layer0":  "tfcmu2:item/metal/chunks/osmium"
                  }
 }
