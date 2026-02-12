@@ -1,0 +1,1 @@
+{"neoforge:conditions":[{"type":"neoforge:mod_loaded","modid":"tfcorewashing"},{"type":"neoforge:mod_loaded","modid":"create"}],"type":"create:pressing","ingredients":[{"tag":"c:metal/pellet/native_platinum"}],"results":[{"id":"tfcmu2:metal/rocky_chunks/native_platinum","count":2}],"processingTime":300}

@@ -1,16 +1,1 @@
-{
-    "replace":  false,
-    "values":  [
-                   "#c:metal/pellet/compressed_iron",
-                   "#c:metal/pellet/platinum",
-                   "#c:metal/pellet/iridium",
-                   "#c:metal/pellet/osmium",
-                   "#c:metal/pellet/osmiridium",
-                   "#c:metal/pellet/mythril",
-                   "#c:metal/pellet/antimony",
-                   "#c:metal/pellet/tungsten",
-                   "#c:metal/pellet/solder",
-                   "#c:metal/pellet/tungsten_steel",
-                   "#c:metal/pellet/titanium"
-               ]
-}
+{"replace":false,"values":["#c:metal/pellet/stibnite","#c:metal/pellet/rutile","#c:metal/pellet/wolframite","#c:metal/pellet/native_platinum","#c:metal/pellet/native_iridium","#c:metal/pellet/native_osmium"]}

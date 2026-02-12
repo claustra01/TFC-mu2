@@ -40,6 +40,10 @@ public enum Tfcmu2Ore {
         return metalTagName;
     }
 
+    public String oreWashingSerializedName() {
+        return serializedName;
+    }
+
     public Block create(RegistryRock rock) {
         return new Block(BlockBehaviour.Properties.of()
             .mapColor(MapColor.STONE)

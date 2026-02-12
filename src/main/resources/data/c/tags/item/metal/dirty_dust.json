@@ -1,16 +1,1 @@
-﻿{
-    "replace":  false,
-    "values":  [
-                   "#c:metal/dirty_dust/compressed_iron",
-                   "#c:metal/dirty_dust/platinum",
-                   "#c:metal/dirty_dust/iridium",
-                   "#c:metal/dirty_dust/osmium",
-                   "#c:metal/dirty_dust/osmiridium",
-                   "#c:metal/dirty_dust/mythril",
-                   "#c:metal/dirty_dust/antimony",
-                   "#c:metal/dirty_dust/titanium",
-                   "#c:metal/dirty_dust/tungsten",
-                   "#c:metal/dirty_dust/solder",
-                   "#c:metal/dirty_dust/tungsten_steel"
-               ]
-}
+{"replace":false,"values":["#c:metal/dirty_dust/stibnite","#c:metal/dirty_dust/rutile","#c:metal/dirty_dust/wolframite","#c:metal/dirty_dust/native_platinum","#c:metal/dirty_dust/native_iridium","#c:metal/dirty_dust/native_osmium"]}

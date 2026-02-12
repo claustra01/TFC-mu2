@@ -1,1 +1,0 @@
-﻿{"type":"minecraft:fishing","pools":[{"name":"loot_pool","rolls":1,"entries":[{"type":"minecraft:tag","name":"c:metal/powder/solder","expand":true}]},{"name":"loot_pool","rolls":1,"entries":[{"type":"minecraft:tag","name":"c:metal/dirty_pile/solder","expand":true,"conditions":[{"condition":"minecraft:random_chance","chance":0.25}]}]}]}

@@ -26,8 +26,8 @@ public final class Tfcmu2Items {
     public static final Map<Tfcmu2Metal, Map<Tfcmu2MoreItemType, DeferredItem<Item>>> MORE_METAL_ITEMS = TFC_MORE_ITEMS_LOADED
         ? registerMoreMetalItems()
         : Collections.emptyMap();
-    public static final Map<Tfcmu2Metal, Map<Tfcmu2OreWashingItemType, DeferredItem<Item>>> ORE_WASHING_METAL_ITEMS = TFC_ORE_WASHING_LOADED
-        ? registerOreWashingMetalItems()
+    public static final Map<Tfcmu2Ore, Map<Tfcmu2OreWashingItemType, DeferredItem<Item>>> ORE_WASHING_ORE_ITEMS = TFC_ORE_WASHING_LOADED
+        ? registerOreWashingOreItems()
         : Collections.emptyMap();
     public static final Map<Tfcmu2Metal, DeferredItem<?>> METAL_BLOCK_ITEMS = Tfcmu2Blocks.registerMetalBlockItems(ITEMS);
     public static final Map<Tfcmu2Metal, DeferredItem<?>> METAL_BLOCK_SLAB_ITEMS = Tfcmu2Blocks.registerMetalSlabBlockItems(ITEMS);
@@ -62,17 +62,18 @@ public final class Tfcmu2Items {
         return Collections.unmodifiableMap(itemsByMetal);
     }
 
-    private static Map<Tfcmu2Metal, Map<Tfcmu2OreWashingItemType, DeferredItem<Item>>> registerOreWashingMetalItems() {
-        final EnumMap<Tfcmu2Metal, Map<Tfcmu2OreWashingItemType, DeferredItem<Item>>> itemsByMetal = new EnumMap<>(Tfcmu2Metal.class);
-        for (Tfcmu2Metal metal : Tfcmu2Metal.values()) {
+    private static Map<Tfcmu2Ore, Map<Tfcmu2OreWashingItemType, DeferredItem<Item>>> registerOreWashingOreItems() {
+        final EnumMap<Tfcmu2Ore, Map<Tfcmu2OreWashingItemType, DeferredItem<Item>>> itemsByOre = new EnumMap<>(Tfcmu2Ore.class);
+        for (Tfcmu2Ore ore : Tfcmu2Ore.VALUES) {
+            final String oreName = ore.oreWashingSerializedName();
             final EnumMap<Tfcmu2OreWashingItemType, DeferredItem<Item>> itemsByType = new EnumMap<>(Tfcmu2OreWashingItemType.class);
             for (Tfcmu2OreWashingItemType type : Tfcmu2OreWashingItemType.values()) {
-                final String id = "metal/" + type.path + "/" + metal.getSerializedName();
+                final String id = "metal/" + type.path + "/" + oreName;
                 itemsByType.put(type, ITEMS.register(id, () -> new Item(new Item.Properties())));
             }
-            itemsByMetal.put(metal, Collections.unmodifiableMap(itemsByType));
+            itemsByOre.put(ore, Collections.unmodifiableMap(itemsByType));
         }
-        return Collections.unmodifiableMap(itemsByMetal);
+        return Collections.unmodifiableMap(itemsByOre);
     }
 
     private static Map<Tfcmu2Ore, DeferredItem<Item>> registerOreItems() {

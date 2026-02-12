@@ -1,0 +1,1 @@
+{"neoforge:conditions":[{"type":"neoforge:mod_loaded","modid":"tfcorewashing"},{"type":"neoforge:mod_loaded","modid":"create"}],"type":"create:splashing","ingredients":[{"item":"tfcmu2:metal/dirty_dust/stibnite"}],"results":[{"id":"tfcmu2:metal/powder/stibnite"},{"id":"tfcmu2:metal/dirty_pile/stibnite","chance":0.15}],"processingTime":1200}

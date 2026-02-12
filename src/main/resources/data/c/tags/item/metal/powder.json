@@ -1,16 +1,1 @@
-﻿{
-    "replace":  false,
-    "values":  [
-                   "#c:metal/powder/compressed_iron",
-                   "#c:metal/powder/platinum",
-                   "#c:metal/powder/iridium",
-                   "#c:metal/powder/osmium",
-                   "#c:metal/powder/osmiridium",
-                   "#c:metal/powder/mythril",
-                   "#c:metal/powder/antimony",
-                   "#c:metal/powder/titanium",
-                   "#c:metal/powder/tungsten",
-                   "#c:metal/powder/solder",
-                   "#c:metal/powder/tungsten_steel"
-               ]
-}
+{"replace":false,"values":["#c:metal/powder/stibnite","#c:metal/powder/rutile","#c:metal/powder/wolframite","#c:metal/powder/native_platinum","#c:metal/powder/native_iridium","#c:metal/powder/native_osmium"]}

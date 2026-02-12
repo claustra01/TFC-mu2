@@ -1,16 +1,1 @@
-﻿{
-    "replace":  false,
-    "values":  [
-                   "#c:metal/chunks/compressed_iron",
-                   "#c:metal/chunks/platinum",
-                   "#c:metal/chunks/iridium",
-                   "#c:metal/chunks/osmium",
-                   "#c:metal/chunks/osmiridium",
-                   "#c:metal/chunks/mythril",
-                   "#c:metal/chunks/antimony",
-                   "#c:metal/chunks/titanium",
-                   "#c:metal/chunks/tungsten",
-                   "#c:metal/chunks/solder",
-                   "#c:metal/chunks/tungsten_steel"
-               ]
-}
+{"replace":false,"values":["#c:metal/chunks/stibnite","#c:metal/chunks/rutile","#c:metal/chunks/wolframite","#c:metal/chunks/native_platinum","#c:metal/chunks/native_iridium","#c:metal/chunks/native_osmium"]}

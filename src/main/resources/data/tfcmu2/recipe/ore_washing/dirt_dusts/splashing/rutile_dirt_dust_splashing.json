@@ -1,0 +1,1 @@
+{"neoforge:conditions":[{"type":"neoforge:mod_loaded","modid":"tfcorewashing"},{"type":"neoforge:mod_loaded","modid":"create"}],"type":"create:splashing","ingredients":[{"item":"tfcmu2:metal/dirty_dust/rutile"}],"results":[{"id":"tfcmu2:metal/powder/rutile"},{"id":"tfcmu2:metal/dirty_pile/rutile","chance":0.15}],"processingTime":1200}
