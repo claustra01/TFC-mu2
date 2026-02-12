@@ -1,4 +1,4 @@
-﻿{
+{
     "replace":  false,
     "values":  [
                    "#c:heavy_sheets/compressed_iron",
@@ -10,6 +10,7 @@
                    "#c:heavy_sheets/antimony",
                    "#c:heavy_sheets/tungsten",
                    "#c:heavy_sheets/solder",
-                   "#c:heavy_sheets/tungsten_steel"
+                   "#c:heavy_sheets/tungsten_steel",
+                   "#c:heavy_sheets/titanium"
                ]
 }

@@ -1,0 +1,15 @@
+{
+    "type":  "tfc:welding",
+    "first_input":  {
+                        "tag":  "c:ingots/titanium"
+                    },
+    "second_input":  {
+                         "tag":  "c:ingots/titanium"
+                     },
+    "result":  {
+                   "count":  1,
+                   "id":  "tfcmu2:metal/double_ingot/titanium"
+               },
+    "tier":  3
+}
+

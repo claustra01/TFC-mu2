@@ -1,4 +1,4 @@
-﻿{
+{
     "values":  [
                    "#c:sheets/compressed_iron",
                    "#c:sheets/platinum",
@@ -9,6 +9,7 @@
                    "#c:sheets/antimony",
                    "#c:sheets/tungsten",
                    "#c:sheets/solder",
-                   "#c:sheets/tungsten_steel"
+                   "#c:sheets/tungsten_steel",
+                   "#c:sheets/titanium"
                ]
 }

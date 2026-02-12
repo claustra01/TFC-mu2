@@ -1,0 +1,5 @@
+{
+    "fluid": "tfc:metal/osmiridium",
+    "melt_temperature": 1500,
+    "specific_heat_capacity": 0.008571429
+}

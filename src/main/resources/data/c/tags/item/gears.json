@@ -1,4 +1,4 @@
-﻿{
+{
     "replace":  false,
     "values":  [
                    "#c:gears/compressed_iron",
@@ -10,6 +10,7 @@
                    "#c:gears/antimony",
                    "#c:gears/tungsten",
                    "#c:gears/solder",
-                   "#c:gears/tungsten_steel"
+                   "#c:gears/tungsten_steel",
+                   "#c:gears/titanium"
                ]
 }

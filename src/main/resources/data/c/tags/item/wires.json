@@ -1,4 +1,4 @@
-﻿{
+{
     "replace":  false,
     "values":  [
                    "#c:wires/compressed_iron",
@@ -10,6 +10,7 @@
                    "#c:wires/antimony",
                    "#c:wires/tungsten",
                    "#c:wires/solder",
-                   "#c:wires/tungsten_steel"
+                   "#c:wires/tungsten_steel",
+                   "#c:wires/titanium"
                ]
 }

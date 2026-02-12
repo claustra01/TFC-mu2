@@ -1,4 +1,4 @@
-﻿{
+{
     "values":  [
                    "tfcmu2:metal/block/compressed_iron",
                    "tfcmu2:metal/block/platinum",
@@ -393,6 +393,7 @@
                    "tfcmu2:ore/rich_wolframite/schist",
                    "tfcmu2:ore/rich_wolframite/gneiss",
                    "tfcmu2:ore/rich_wolframite/marble",
-                   "tfcmu2:ore/small_wolframite"
+                   "tfcmu2:ore/small_wolframite",
+                   "tfcmu2:metal/block/titanium"
                ]
 }

@@ -1,5 +1,14 @@
-﻿{
-    "type":  "tfc:heating",
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:mod_loaded",
+                "modid": "tfcorewashing"
+            }
+        }
+    ],
+"type":  "tfc:heating",
     "ingredient":  {
                        "item":  "tfcmu2:ore/rich_wolframite"
                    },

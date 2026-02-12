@@ -1,0 +1,19 @@
+{
+    "neoforge:conditions":  [
+                                {
+                                    "type":  "neoforge:mod_loaded",
+                                    "modid":  "tfcorewashing"
+                                }
+                            ],
+    "type":  "minecraft:crafting_shapeless",
+    "ingredients":  [
+                        {
+                            "tag":  "c:metal/briquet/titanium"
+                        }
+                    ],
+    "result":  {
+                   "count":  4,
+                   "id":  "tfcmu2:metal/pellet/titanium"
+               }
+}
+

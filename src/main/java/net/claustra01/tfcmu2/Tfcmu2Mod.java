@@ -10,6 +10,8 @@ public final class Tfcmu2Mod {
     public static final String TFC_ORE_WASHING_MOD_ID = "tfcorewashing";
 
     public Tfcmu2Mod(IEventBus modEventBus) {
+        Tfcmu2Fluids.FLUID_TYPES.register(modEventBus);
+        Tfcmu2Fluids.FLUIDS.register(modEventBus);
         Tfcmu2Blocks.BLOCKS.register(modEventBus);
         Tfcmu2CreativeTabs.CREATIVE_MODE_TABS.register(modEventBus);
         Tfcmu2Items.ITEMS.register(modEventBus);

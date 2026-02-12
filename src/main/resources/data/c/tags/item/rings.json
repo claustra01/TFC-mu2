@@ -1,4 +1,4 @@
-﻿{
+{
     "replace":  false,
     "values":  [
                    "#c:rings/compressed_iron",
@@ -10,6 +10,7 @@
                    "#c:rings/antimony",
                    "#c:rings/tungsten",
                    "#c:rings/solder",
-                   "#c:rings/tungsten_steel"
+                   "#c:rings/tungsten_steel",
+                   "#c:rings/titanium"
                ]
 }

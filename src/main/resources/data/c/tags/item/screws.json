@@ -1,4 +1,4 @@
-﻿{
+{
     "replace":  false,
     "values":  [
                    "#c:screws/compressed_iron",
@@ -10,6 +10,7 @@
                    "#c:screws/antimony",
                    "#c:screws/tungsten",
                    "#c:screws/solder",
-                   "#c:screws/tungsten_steel"
+                   "#c:screws/tungsten_steel",
+                   "#c:screws/titanium"
                ]
 }

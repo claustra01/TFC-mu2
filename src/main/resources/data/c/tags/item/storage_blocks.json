@@ -1,4 +1,4 @@
-﻿{
+{
     "values":  [
                    "#c:storage_blocks/compressed_iron",
                    "#c:storage_blocks/platinum",
@@ -9,6 +9,7 @@
                    "#c:storage_blocks/antimony",
                    "#c:storage_blocks/tungsten",
                    "#c:storage_blocks/solder",
-                   "#c:storage_blocks/tungsten_steel"
+                   "#c:storage_blocks/tungsten_steel",
+                   "#c:storage_blocks/titanium"
                ]
 }

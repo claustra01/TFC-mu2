@@ -1,16 +1,16 @@
-﻿{
-  "values": [
-    "#c:ingots/compressed_iron",
-    "#c:ingots/platinum",
-    "#c:ingots/iridium",
-    "#c:ingots/osmium",
-    "#c:ingots/osmiridium",
-    "#c:ingots/mythril",
-    "#c:ingots/antimony",
-    "#c:ingots/tungsten",
-    "#c:ingots/solder",
-    "#c:ingots/tungsten_steel",
-    "#c:ingots/high_carbon_tungsten_steel"
-  ]
+{
+    "values":  [
+                   "#c:ingots/compressed_iron",
+                   "#c:ingots/platinum",
+                   "#c:ingots/iridium",
+                   "#c:ingots/osmium",
+                   "#c:ingots/osmiridium",
+                   "#c:ingots/mythril",
+                   "#c:ingots/antimony",
+                   "#c:ingots/tungsten",
+                   "#c:ingots/solder",
+                   "#c:ingots/tungsten_steel",
+                   "#c:ingots/high_carbon_tungsten_steel",
+                   "#c:ingots/titanium"
+               ]
 }
-
