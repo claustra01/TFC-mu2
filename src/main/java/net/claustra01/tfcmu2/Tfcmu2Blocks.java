@@ -21,6 +21,8 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 public final class Tfcmu2Blocks {
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(Tfcmu2Mod.MOD_ID);
     public static final Map<Tfcmu2Metal, DeferredBlock<Block>> METAL_BLOCKS = registerMetalBlocks();
+    public static final Map<Tfcmu2Metal, DeferredBlock<Block>> METAL_BLOCK_SLABS = registerMetalBlockSlabs();
+    public static final Map<Tfcmu2Metal, DeferredBlock<Block>> METAL_BLOCK_STAIRS = registerMetalBlockStairs();
     public static final Map<Rock, Map<Tfcmu2Ore, DeferredBlock<Block>>> ORES = registerOres();
     public static final Map<Rock, Map<Tfcmu2Ore, Map<Ore.Grade, DeferredBlock<Block>>>> GRADED_ORES = registerGradedOres();
     public static final Map<Tfcmu2Ore, DeferredBlock<Block>> SMALL_ORES = registerSmallOres();
@@ -33,6 +35,24 @@ public final class Tfcmu2Blocks {
         for (Tfcmu2Metal metal : Tfcmu2Metal.values()) {
             final String id = "metal/block/" + metal.getSerializedName();
             blockItems.put(metal, items.registerSimpleBlockItem(id, METAL_BLOCKS.get(metal)));
+        }
+        return Collections.unmodifiableMap(blockItems);
+    }
+
+    public static Map<Tfcmu2Metal, DeferredItem<?>> registerMetalSlabBlockItems(DeferredRegister.Items items) {
+        final EnumMap<Tfcmu2Metal, DeferredItem<?>> blockItems = new EnumMap<>(Tfcmu2Metal.class);
+        for (Tfcmu2Metal metal : Tfcmu2Metal.values()) {
+            final String id = "metal/block/" + metal.getSerializedName() + "_slab";
+            blockItems.put(metal, items.registerSimpleBlockItem(id, METAL_BLOCK_SLABS.get(metal)));
+        }
+        return Collections.unmodifiableMap(blockItems);
+    }
+
+    public static Map<Tfcmu2Metal, DeferredItem<?>> registerMetalStairsBlockItems(DeferredRegister.Items items) {
+        final EnumMap<Tfcmu2Metal, DeferredItem<?>> blockItems = new EnumMap<>(Tfcmu2Metal.class);
+        for (Tfcmu2Metal metal : Tfcmu2Metal.values()) {
+            final String id = "metal/block/" + metal.getSerializedName() + "_stairs";
+            blockItems.put(metal, items.registerSimpleBlockItem(id, METAL_BLOCK_STAIRS.get(metal)));
         }
         return Collections.unmodifiableMap(blockItems);
     }
@@ -91,6 +111,24 @@ public final class Tfcmu2Blocks {
         for (Tfcmu2Metal metal : Tfcmu2Metal.values()) {
             final String id = "metal/block/" + metal.getSerializedName();
             blocks.put(metal, BLOCKS.register(id, Metal.BlockType.BLOCK.create(metal)));
+        }
+        return Collections.unmodifiableMap(blocks);
+    }
+
+    private static Map<Tfcmu2Metal, DeferredBlock<Block>> registerMetalBlockSlabs() {
+        final EnumMap<Tfcmu2Metal, DeferredBlock<Block>> blocks = new EnumMap<>(Tfcmu2Metal.class);
+        for (Tfcmu2Metal metal : Tfcmu2Metal.values()) {
+            final String id = "metal/block/" + metal.getSerializedName() + "_slab";
+            blocks.put(metal, BLOCKS.register(id, Metal.BlockType.BLOCK_SLAB.create(metal)));
+        }
+        return Collections.unmodifiableMap(blocks);
+    }
+
+    private static Map<Tfcmu2Metal, DeferredBlock<Block>> registerMetalBlockStairs() {
+        final EnumMap<Tfcmu2Metal, DeferredBlock<Block>> blocks = new EnumMap<>(Tfcmu2Metal.class);
+        for (Tfcmu2Metal metal : Tfcmu2Metal.values()) {
+            final String id = "metal/block/" + metal.getSerializedName() + "_stairs";
+            blocks.put(metal, BLOCKS.register(id, Metal.BlockType.BLOCK_STAIRS.create(metal)));
         }
         return Collections.unmodifiableMap(blocks);
     }

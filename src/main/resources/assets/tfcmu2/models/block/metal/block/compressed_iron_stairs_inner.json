@@ -1,0 +1,8 @@
+﻿{
+    "parent":  "block/inner_stairs",
+    "textures":  {
+                     "bottom":  "tfcmu2:block/metal/block/compressed_iron",
+                     "top":  "tfcmu2:block/metal/block/compressed_iron",
+                     "side":  "tfcmu2:block/metal/block/compressed_iron"
+                 }
+}

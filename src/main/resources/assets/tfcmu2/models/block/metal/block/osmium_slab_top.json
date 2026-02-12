@@ -1,0 +1,8 @@
+﻿{
+    "parent":  "block/slab_top",
+    "textures":  {
+                     "bottom":  "tfcmu2:block/metal/block/osmium",
+                     "top":  "tfcmu2:block/metal/block/osmium",
+                     "side":  "tfcmu2:block/metal/block/osmium"
+                 }
+}

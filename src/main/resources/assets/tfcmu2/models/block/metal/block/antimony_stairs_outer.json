@@ -1,0 +1,8 @@
+﻿{
+    "parent":  "block/outer_stairs",
+    "textures":  {
+                     "bottom":  "tfcmu2:block/metal/block/antimony",
+                     "top":  "tfcmu2:block/metal/block/antimony",
+                     "side":  "tfcmu2:block/metal/block/antimony"
+                 }
+}

@@ -1,0 +1,19 @@
+﻿{
+    "neoforge:conditions":  [
+                                {
+                                    "type":  "neoforge:mod_loaded",
+                                    "modid":  "tfcorewashing"
+                                }
+                            ],
+    "type":  "tfc:heating",
+    "ingredient":  [
+                       {
+                           "tag":  "c:metal/powder/tungsten_steel"
+                       }
+                   ],
+    "result_fluid":  {
+                         "id":  "tfc:metal/tungsten_steel",
+                         "amount":  5
+                     },
+    "temperature":  1535
+}

@@ -1,0 +1,25 @@
+﻿{
+    "neoforge:conditions":  [
+                                {
+                                    "type":  "neoforge:mod_loaded",
+                                    "modid":  "tfcorewashing"
+                                },
+                                {
+                                    "type":  "neoforge:mod_loaded",
+                                    "modid":  "create"
+                                }
+                            ],
+    "type":  "create:pressing",
+    "ingredients":  [
+                        {
+                            "tag":  "c:metal/pellet/osmium"
+                        }
+                    ],
+    "results":  [
+                    {
+                        "id":  "tfcmu2:metal/rocky_chunks/osmium",
+                        "count":  2
+                    }
+                ],
+    "processingTime":  300
+}

@@ -30,6 +30,8 @@ public final class Tfcmu2Items {
         ? registerOreWashingMetalItems()
         : Collections.emptyMap();
     public static final Map<Tfcmu2Metal, DeferredItem<?>> METAL_BLOCK_ITEMS = Tfcmu2Blocks.registerMetalBlockItems(ITEMS);
+    public static final Map<Tfcmu2Metal, DeferredItem<?>> METAL_BLOCK_SLAB_ITEMS = Tfcmu2Blocks.registerMetalSlabBlockItems(ITEMS);
+    public static final Map<Tfcmu2Metal, DeferredItem<?>> METAL_BLOCK_STAIRS_ITEMS = Tfcmu2Blocks.registerMetalStairsBlockItems(ITEMS);
     public static final Map<Tfcmu2Ore, DeferredItem<Item>> ORES = registerOreItems();
     public static final Map<Tfcmu2Ore, Map<Ore.Grade, DeferredItem<Item>>> GRADED_ORES = registerGradedOreItems();
     public static final Map<Rock, Map<Tfcmu2Ore, DeferredItem<?>>> ORE_BLOCK_ITEMS = Tfcmu2Blocks.registerOreBlockItems(ITEMS);
@@ -121,7 +123,12 @@ public final class Tfcmu2Items {
 
     public enum Tfcmu2OreWashingItemType {
         PELLET("pellet"),
-        BRIQUET("briquet");
+        BRIQUET("briquet"),
+        CHUNKS("chunks"),
+        ROCKY_CHUNKS("rocky_chunks"),
+        DIRTY_DUST("dirty_dust"),
+        DIRTY_PILE("dirty_pile"),
+        POWDER("powder");
 
         private final String path;
 

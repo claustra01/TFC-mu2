@@ -1,0 +1,16 @@
+﻿{
+    "replace":  false,
+    "values":  [
+                   "#c:metal/chunks/compressed_iron",
+                   "#c:metal/chunks/platinum",
+                   "#c:metal/chunks/iridium",
+                   "#c:metal/chunks/osmium",
+                   "#c:metal/chunks/osmiridium",
+                   "#c:metal/chunks/mythril",
+                   "#c:metal/chunks/antimony",
+                   "#c:metal/chunks/titanium",
+                   "#c:metal/chunks/tungsten",
+                   "#c:metal/chunks/solder",
+                   "#c:metal/chunks/tungsten_steel"
+               ]
+}

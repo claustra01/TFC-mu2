@@ -1,0 +1,16 @@
+﻿{
+    "replace":  false,
+    "values":  [
+                   "#c:metal/dirty_pile/compressed_iron",
+                   "#c:metal/dirty_pile/platinum",
+                   "#c:metal/dirty_pile/iridium",
+                   "#c:metal/dirty_pile/osmium",
+                   "#c:metal/dirty_pile/osmiridium",
+                   "#c:metal/dirty_pile/mythril",
+                   "#c:metal/dirty_pile/antimony",
+                   "#c:metal/dirty_pile/titanium",
+                   "#c:metal/dirty_pile/tungsten",
+                   "#c:metal/dirty_pile/solder",
+                   "#c:metal/dirty_pile/tungsten_steel"
+               ]
+}

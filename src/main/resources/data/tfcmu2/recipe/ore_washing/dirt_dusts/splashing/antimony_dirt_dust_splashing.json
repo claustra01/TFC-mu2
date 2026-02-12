@@ -1,0 +1,28 @@
+﻿{
+    "neoforge:conditions":  [
+                                {
+                                    "type":  "neoforge:mod_loaded",
+                                    "modid":  "tfcorewashing"
+                                },
+                                {
+                                    "type":  "neoforge:mod_loaded",
+                                    "modid":  "create"
+                                }
+                            ],
+    "type":  "create:splashing",
+    "ingredients":  [
+                        {
+                            "item":  "tfcmu2:metal/dirty_dust/antimony"
+                        }
+                    ],
+    "results":  [
+                    {
+                        "id":  "tfcmu2:metal/powder/antimony"
+                    },
+                    {
+                        "id":  "tfcmu2:metal/dirty_pile/antimony",
+                        "chance":  0.15
+                    }
+                ],
+    "processingTime":  1200
+}

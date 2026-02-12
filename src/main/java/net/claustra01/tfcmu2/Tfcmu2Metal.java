@@ -56,6 +56,12 @@ public enum Tfcmu2Metal implements RegistryMetal {
         if (type == Metal.BlockType.BLOCK) {
             return Tfcmu2Blocks.METAL_BLOCKS.get(this).get();
         }
+        if (type == Metal.BlockType.BLOCK_SLAB) {
+            return Tfcmu2Blocks.METAL_BLOCK_SLABS.get(this).get();
+        }
+        if (type == Metal.BlockType.BLOCK_STAIRS) {
+            return Tfcmu2Blocks.METAL_BLOCK_STAIRS.get(this).get();
+        }
         throw unsupported("getBlock(" + type.name() + ")");
     }
 

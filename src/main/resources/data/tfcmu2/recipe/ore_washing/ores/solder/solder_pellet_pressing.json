@@ -1,0 +1,25 @@
+﻿{
+    "neoforge:conditions":  [
+                                {
+                                    "type":  "neoforge:mod_loaded",
+                                    "modid":  "tfcorewashing"
+                                },
+                                {
+                                    "type":  "neoforge:mod_loaded",
+                                    "modid":  "create"
+                                }
+                            ],
+    "type":  "create:pressing",
+    "ingredients":  [
+                        {
+                            "tag":  "c:metal/pellet/solder"
+                        }
+                    ],
+    "results":  [
+                    {
+                        "id":  "tfcmu2:metal/rocky_chunks/solder",
+                        "count":  2
+                    }
+                ],
+    "processingTime":  300
+}

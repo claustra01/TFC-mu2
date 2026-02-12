@@ -1,0 +1,28 @@
+﻿{
+    "neoforge:conditions":  [
+                                {
+                                    "type":  "neoforge:mod_loaded",
+                                    "modid":  "tfcorewashing"
+                                },
+                                {
+                                    "type":  "neoforge:mod_loaded",
+                                    "modid":  "create"
+                                }
+                            ],
+    "type":  "create:splashing",
+    "ingredients":  [
+                        {
+                            "item":  "tfcmu2:metal/rocky_chunks/compressed_iron"
+                        }
+                    ],
+    "results":  [
+                    {
+                        "id":  "tfcmu2:metal/chunks/compressed_iron"
+                    },
+                    {
+                        "id":  "tfcmu2:metal/dirty_pile/compressed_iron",
+                        "chance":  0.15
+                    }
+                ],
+    "processingTime":  1200
+}

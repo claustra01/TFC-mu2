@@ -1,0 +1,16 @@
+﻿{
+    "type":  "minecraft:crafting_shaped",
+    "category":  "misc",
+    "key":  {
+                "B":  {
+                          "tag":  "c:storage_blocks/mythril"
+                      }
+            },
+    "pattern":  [
+                    "BBB"
+                ],
+    "result":  {
+                   "count":  6,
+                   "id":  "tfcmu2:metal/block/mythril_slab"
+               }
+}

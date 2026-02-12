@@ -1,0 +1,16 @@
+﻿{
+    "replace":  false,
+    "values":  [
+                   "#c:metal/powder/compressed_iron",
+                   "#c:metal/powder/platinum",
+                   "#c:metal/powder/iridium",
+                   "#c:metal/powder/osmium",
+                   "#c:metal/powder/osmiridium",
+                   "#c:metal/powder/mythril",
+                   "#c:metal/powder/antimony",
+                   "#c:metal/powder/titanium",
+                   "#c:metal/powder/tungsten",
+                   "#c:metal/powder/solder",
+                   "#c:metal/powder/tungsten_steel"
+               ]
+}

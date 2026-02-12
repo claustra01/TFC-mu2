@@ -1,0 +1,18 @@
+﻿{
+    "type":  "minecraft:crafting_shaped",
+    "category":  "misc",
+    "key":  {
+                "B":  {
+                          "tag":  "c:storage_blocks/platinum"
+                      }
+            },
+    "pattern":  [
+                    "B  ",
+                    "BB ",
+                    "BBB"
+                ],
+    "result":  {
+                   "count":  8,
+                   "id":  "tfcmu2:metal/block/platinum_stairs"
+               }
+}
