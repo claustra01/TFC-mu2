@@ -1,0 +1,17 @@
+{
+    "neoforge:conditions":  [
+                                {
+                                    "type":  "neoforge:mod_loaded",
+                                    "modid":  "tfc_items"
+                                }
+                            ],
+    "type":  "tfc:heating",
+    "ingredient":  {
+                       "tag":  "c:wires/mythril"
+                   },
+    "result_fluid":  {
+                         "amount":  25,
+                         "id":  "tfc:metal/mythril"
+                     },
+    "temperature":  940
+}
