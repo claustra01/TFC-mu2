@@ -11,24 +11,26 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.material.MapColor;
 
 public enum Tfcmu2Metal implements RegistryMetal {
-    COMPRESSED_IRON("compressed_iron", Rarity.UNCOMMON),
-    PLATINUM("platinum", Rarity.RARE),
-    IRIDIUM("iridium", Rarity.UNCOMMON),
-    OSMIUM("osmium", Rarity.UNCOMMON),
-    OSMIRIDIUM("osmiridium", Rarity.UNCOMMON),
-    MYTHRIL("mythril", Rarity.COMMON),
-    ANTIMONY("antimony", Rarity.COMMON),
-    TITANIUM("titanium", Rarity.UNCOMMON),
-    TUNGSTEN("tungsten", Rarity.EPIC),
-    SOLDER("solder", Rarity.UNCOMMON),
-    TUNGSTEN_STEEL("tungsten_steel", Rarity.EPIC);
+    COMPRESSED_IRON("compressed_iron", Rarity.UNCOMMON, 0x6F6C6B),
+    PLATINUM("platinum", Rarity.RARE, 0x627C8B),
+    IRIDIUM("iridium", Rarity.UNCOMMON, 0xADC4CE),
+    OSMIUM("osmium", Rarity.UNCOMMON, 0xA5B4CA),
+    OSMIRIDIUM("osmiridium", Rarity.UNCOMMON, 0x718383),
+    MYTHRIL("mythril", Rarity.COMMON, 0x5383A2),
+    ANTIMONY("antimony", Rarity.COMMON, 0xB4AFBD),
+    TITANIUM("titanium", Rarity.UNCOMMON, 0x898B93),
+    TUNGSTEN("tungsten", Rarity.EPIC, 0x585F6B),
+    SOLDER("solder", Rarity.UNCOMMON, 0x888888),
+    TUNGSTEN_STEEL("tungsten_steel", Rarity.EPIC, 0x2F353E);
 
     private final String serializedName;
     private final Rarity rarity;
+    private final int color;
 
-    Tfcmu2Metal(String serializedName, Rarity rarity) {
+    Tfcmu2Metal(String serializedName, Rarity rarity, int color) {
         this.serializedName = serializedName;
         this.rarity = rarity;
+        this.color = color;
     }
 
     @Override
@@ -73,6 +75,10 @@ public enum Tfcmu2Metal implements RegistryMetal {
     @Override
     public Rarity rarity() {
         return rarity;
+    }
+
+    public int color() {
+        return color;
     }
 
     @Override
