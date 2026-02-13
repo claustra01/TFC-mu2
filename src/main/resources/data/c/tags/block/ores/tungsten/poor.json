@@ -1,4 +1,4 @@
-﻿{
+{
     "values":  [
                    "tfcmu2:ore/poor_wolframite/granite",
                    "tfcmu2:ore/poor_wolframite/diorite",
@@ -20,6 +20,8 @@
                    "tfcmu2:ore/poor_wolframite/phyllite",
                    "tfcmu2:ore/poor_wolframite/schist",
                    "tfcmu2:ore/poor_wolframite/gneiss",
-                   "tfcmu2:ore/poor_wolframite/marble"
+                   "tfcmu2:ore/poor_wolframite/marble",
+                   "tfcmu2:ore/poor_wolframite/netherrack",
+                   "tfcmu2:ore/poor_wolframite/endstone"
                ]
 }

@@ -1,4 +1,4 @@
-﻿{
+{
     "values":  [
                    "tfcmu2:ore/rich_native_osmium/granite",
                    "tfcmu2:ore/rich_native_osmium/diorite",
@@ -20,6 +20,8 @@
                    "tfcmu2:ore/rich_native_osmium/phyllite",
                    "tfcmu2:ore/rich_native_osmium/schist",
                    "tfcmu2:ore/rich_native_osmium/gneiss",
-                   "tfcmu2:ore/rich_native_osmium/marble"
+                   "tfcmu2:ore/rich_native_osmium/marble",
+                   "tfcmu2:ore/rich_native_osmium/netherrack",
+                   "tfcmu2:ore/rich_native_osmium/endstone"
                ]
 }

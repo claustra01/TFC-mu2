@@ -1,0 +1,8 @@
+{
+  "parent": "tfc:block/ore",
+  "textures": {
+    "all": "minecraft:block/end_stone",
+    "particle": "minecraft:block/end_stone",
+    "overlay": "tfcmu2:block/ore/rich_rutile"
+  }
+}

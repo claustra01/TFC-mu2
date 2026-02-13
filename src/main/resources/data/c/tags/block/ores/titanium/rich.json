@@ -1,4 +1,4 @@
-﻿{
+{
     "values":  [
                    "tfcmu2:ore/rich_rutile/granite",
                    "tfcmu2:ore/rich_rutile/diorite",
@@ -20,6 +20,8 @@
                    "tfcmu2:ore/rich_rutile/phyllite",
                    "tfcmu2:ore/rich_rutile/schist",
                    "tfcmu2:ore/rich_rutile/gneiss",
-                   "tfcmu2:ore/rich_rutile/marble"
+                   "tfcmu2:ore/rich_rutile/marble",
+                   "tfcmu2:ore/rich_rutile/netherrack",
+                   "tfcmu2:ore/rich_rutile/endstone"
                ]
 }

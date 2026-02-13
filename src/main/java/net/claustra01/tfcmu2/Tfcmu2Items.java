@@ -36,6 +36,7 @@ public final class Tfcmu2Items {
     public static final Map<Tfcmu2Ore, Map<Ore.Grade, DeferredItem<Item>>> GRADED_ORES = registerGradedOreItems();
     public static final Map<Rock, Map<Tfcmu2Ore, DeferredItem<?>>> ORE_BLOCK_ITEMS = Tfcmu2Blocks.registerOreBlockItems(ITEMS);
     public static final Map<Rock, Map<Tfcmu2Ore, Map<Ore.Grade, DeferredItem<?>>>> GRADED_ORE_BLOCK_ITEMS = Tfcmu2Blocks.registerGradedOreBlockItems(ITEMS);
+    public static final Map<Tfcmu2VanillaStone, Map<Tfcmu2Ore, Map<Ore.Grade, DeferredItem<?>>>> VANILLA_GRADED_ORE_BLOCK_ITEMS = Tfcmu2Blocks.registerVanillaGradedOreBlockItems(ITEMS);
     public static final Map<Tfcmu2Ore, DeferredItem<?>> SMALL_ORE_BLOCK_ITEMS = Tfcmu2Blocks.registerSmallOreBlockItems(ITEMS);
 
     private Tfcmu2Items() {

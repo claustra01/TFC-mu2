@@ -25,6 +25,7 @@ public final class Tfcmu2Blocks {
     public static final Map<Tfcmu2Metal, DeferredBlock<Block>> METAL_BLOCK_STAIRS = registerMetalBlockStairs();
     public static final Map<Rock, Map<Tfcmu2Ore, DeferredBlock<Block>>> ORES = registerOres();
     public static final Map<Rock, Map<Tfcmu2Ore, Map<Ore.Grade, DeferredBlock<Block>>>> GRADED_ORES = registerGradedOres();
+    public static final Map<Tfcmu2VanillaStone, Map<Tfcmu2Ore, Map<Ore.Grade, DeferredBlock<Block>>>> VANILLA_GRADED_ORES = registerVanillaGradedOres();
     public static final Map<Tfcmu2Ore, DeferredBlock<Block>> SMALL_ORES = registerSmallOres();
 
     private Tfcmu2Blocks() {
@@ -90,6 +91,27 @@ public final class Tfcmu2Blocks {
                 rockItems.put(ore, Collections.unmodifiableMap(gradeItems));
             }
             blockItems.put(rock, Collections.unmodifiableMap(rockItems));
+        }
+        return Collections.unmodifiableMap(blockItems);
+    }
+
+    public static Map<Tfcmu2VanillaStone, Map<Tfcmu2Ore, Map<Ore.Grade, DeferredItem<?>>>> registerVanillaGradedOreBlockItems(DeferredRegister.Items items) {
+        final EnumMap<Tfcmu2VanillaStone, Map<Tfcmu2Ore, Map<Ore.Grade, DeferredItem<?>>>> blockItems = new EnumMap<>(Tfcmu2VanillaStone.class);
+        for (Tfcmu2VanillaStone stone : Tfcmu2VanillaStone.values()) {
+            final EnumMap<Tfcmu2Ore, Map<Ore.Grade, DeferredItem<?>>> stoneItems = new EnumMap<>(Tfcmu2Ore.class);
+            for (Tfcmu2Ore ore : Tfcmu2Ore.VALUES) {
+                if (!ore.isGraded()) {
+                    continue;
+                }
+                final EnumMap<Ore.Grade, DeferredItem<?>> gradeItems = new EnumMap<>(Ore.Grade.class);
+                for (Ore.Grade grade : Ore.Grade.values()) {
+                    final String gradeName = grade.name().toLowerCase(Locale.ROOT);
+                    final String id = "ore/" + gradeName + "_" + ore.getSerializedName() + "/" + stone.getSerializedName();
+                    gradeItems.put(grade, items.registerSimpleBlockItem(id, VANILLA_GRADED_ORES.get(stone).get(ore).get(grade)));
+                }
+                stoneItems.put(ore, Collections.unmodifiableMap(gradeItems));
+            }
+            blockItems.put(stone, Collections.unmodifiableMap(stoneItems));
         }
         return Collections.unmodifiableMap(blockItems);
     }
@@ -170,6 +192,27 @@ public final class Tfcmu2Blocks {
         return Collections.unmodifiableMap(rocks);
     }
 
+    private static Map<Tfcmu2VanillaStone, Map<Tfcmu2Ore, Map<Ore.Grade, DeferredBlock<Block>>>> registerVanillaGradedOres() {
+        final EnumMap<Tfcmu2VanillaStone, Map<Tfcmu2Ore, Map<Ore.Grade, DeferredBlock<Block>>>> stones = new EnumMap<>(Tfcmu2VanillaStone.class);
+        for (Tfcmu2VanillaStone stone : Tfcmu2VanillaStone.values()) {
+            final EnumMap<Tfcmu2Ore, Map<Ore.Grade, DeferredBlock<Block>>> ores = new EnumMap<>(Tfcmu2Ore.class);
+            for (Tfcmu2Ore ore : Tfcmu2Ore.VALUES) {
+                if (!ore.isGraded()) {
+                    continue;
+                }
+                final EnumMap<Ore.Grade, DeferredBlock<Block>> grades = new EnumMap<>(Ore.Grade.class);
+                for (Ore.Grade grade : Ore.Grade.values()) {
+                    final String gradeName = grade.name().toLowerCase(Locale.ROOT);
+                    final String id = "ore/" + gradeName + "_" + ore.getSerializedName() + "/" + stone.getSerializedName();
+                    grades.put(grade, BLOCKS.register(id, () -> createVanillaOreBlock(stone.baseBlock())));
+                }
+                ores.put(ore, Collections.unmodifiableMap(grades));
+            }
+            stones.put(stone, Collections.unmodifiableMap(ores));
+        }
+        return Collections.unmodifiableMap(stones);
+    }
+
     private static Map<Tfcmu2Ore, DeferredBlock<Block>> registerSmallOres() {
         final EnumMap<Tfcmu2Ore, DeferredBlock<Block>> ores = new EnumMap<>(Tfcmu2Ore.class);
         for (Tfcmu2Ore ore : Tfcmu2Ore.VALUES) {
@@ -185,5 +228,9 @@ public final class Tfcmu2Blocks {
                 .pushReaction(PushReaction.DESTROY))));
         }
         return Collections.unmodifiableMap(ores);
+    }
+
+    private static Block createVanillaOreBlock(Block baseBlock) {
+        return new Block(BlockBehaviour.Properties.ofFullCopy(baseBlock).requiresCorrectToolForDrops());
     }
 }

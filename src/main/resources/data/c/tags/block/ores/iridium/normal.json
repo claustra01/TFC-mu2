@@ -1,4 +1,4 @@
-﻿{
+{
     "values":  [
                    "tfcmu2:ore/normal_native_iridium/granite",
                    "tfcmu2:ore/normal_native_iridium/diorite",
@@ -20,6 +20,8 @@
                    "tfcmu2:ore/normal_native_iridium/phyllite",
                    "tfcmu2:ore/normal_native_iridium/schist",
                    "tfcmu2:ore/normal_native_iridium/gneiss",
-                   "tfcmu2:ore/normal_native_iridium/marble"
+                   "tfcmu2:ore/normal_native_iridium/marble",
+                   "tfcmu2:ore/normal_native_iridium/netherrack",
+                   "tfcmu2:ore/normal_native_iridium/endstone"
                ]
 }
