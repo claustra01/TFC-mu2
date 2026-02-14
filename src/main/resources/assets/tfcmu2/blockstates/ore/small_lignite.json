@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "": [
+      { "model": "tfcmu2:block/ore/small_lignite", "y": 90 },
+      { "model": "tfcmu2:block/ore/small_lignite" },
+      { "model": "tfcmu2:block/ore/small_lignite", "y": 180 },
+      { "model": "tfcmu2:block/ore/small_lignite", "y": 270 }
+    ]
+  }
+}
+

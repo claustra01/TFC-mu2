@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "": [
+      { "model": "tfcmu2:block/ore/small_diamond", "y": 90 },
+      { "model": "tfcmu2:block/ore/small_diamond" },
+      { "model": "tfcmu2:block/ore/small_diamond", "y": 180 },
+      { "model": "tfcmu2:block/ore/small_diamond", "y": 270 }
+    ]
+  }
+}
+

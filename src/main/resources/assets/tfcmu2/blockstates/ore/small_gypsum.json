@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "": [
+      { "model": "tfcmu2:block/ore/small_gypsum", "y": 90 },
+      { "model": "tfcmu2:block/ore/small_gypsum" },
+      { "model": "tfcmu2:block/ore/small_gypsum", "y": 180 },
+      { "model": "tfcmu2:block/ore/small_gypsum", "y": 270 }
+    ]
+  }
+}
+

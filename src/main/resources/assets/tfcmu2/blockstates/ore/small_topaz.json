@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "": [
+      { "model": "tfcmu2:block/ore/small_topaz", "y": 90 },
+      { "model": "tfcmu2:block/ore/small_topaz" },
+      { "model": "tfcmu2:block/ore/small_topaz", "y": 180 },
+      { "model": "tfcmu2:block/ore/small_topaz", "y": 270 }
+    ]
+  }
+}
+

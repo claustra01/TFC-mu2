@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "": [
+      { "model": "tfcmu2:block/ore/small_opal", "y": 90 },
+      { "model": "tfcmu2:block/ore/small_opal" },
+      { "model": "tfcmu2:block/ore/small_opal", "y": 180 },
+      { "model": "tfcmu2:block/ore/small_opal", "y": 270 }
+    ]
+  }
+}
+

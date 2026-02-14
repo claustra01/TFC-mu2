@@ -46,6 +46,9 @@ public final class Tfcmu2ClientEvents {
 
             // Loose small ores
             Tfcmu2Blocks.SMALL_ORES.values().forEach(block -> ItemBlockRenderTypes.setRenderLayer(block.get(), cutout));
+
+            // Loose ore pieces that have no native surface sample blocks (e.g. graphite)
+            Tfcmu2Blocks.COMPAT_SMALL_ORE_PIECES.values().forEach(block -> ItemBlockRenderTypes.setRenderLayer(block.get(), cutout));
         });
     }
 

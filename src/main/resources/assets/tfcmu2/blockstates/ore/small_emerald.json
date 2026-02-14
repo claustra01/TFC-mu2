@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "": [
+      { "model": "tfcmu2:block/ore/small_emerald", "y": 90 },
+      { "model": "tfcmu2:block/ore/small_emerald" },
+      { "model": "tfcmu2:block/ore/small_emerald", "y": 180 },
+      { "model": "tfcmu2:block/ore/small_emerald", "y": 270 }
+    ]
+  }
+}
+

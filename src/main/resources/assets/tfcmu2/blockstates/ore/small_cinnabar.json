@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "": [
+      { "model": "tfcmu2:block/ore/small_cinnabar", "y": 90 },
+      { "model": "tfcmu2:block/ore/small_cinnabar" },
+      { "model": "tfcmu2:block/ore/small_cinnabar", "y": 180 },
+      { "model": "tfcmu2:block/ore/small_cinnabar", "y": 270 }
+    ]
+  }
+}
+

@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "": [
+      { "model": "tfcmu2:block/ore/small_graphite", "y": 90 },
+      { "model": "tfcmu2:block/ore/small_graphite" },
+      { "model": "tfcmu2:block/ore/small_graphite", "y": 180 },
+      { "model": "tfcmu2:block/ore/small_graphite", "y": 270 }
+    ]
+  }
+}
+

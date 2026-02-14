@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "": [
+      { "model": "tfcmu2:block/ore/small_ruby", "y": 90 },
+      { "model": "tfcmu2:block/ore/small_ruby" },
+      { "model": "tfcmu2:block/ore/small_ruby", "y": 180 },
+      { "model": "tfcmu2:block/ore/small_ruby", "y": 270 }
+    ]
+  }
+}
+

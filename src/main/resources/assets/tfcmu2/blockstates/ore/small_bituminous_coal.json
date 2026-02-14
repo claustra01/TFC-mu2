@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "": [
+      { "model": "tfcmu2:block/ore/small_bituminous_coal", "y": 90 },
+      { "model": "tfcmu2:block/ore/small_bituminous_coal" },
+      { "model": "tfcmu2:block/ore/small_bituminous_coal", "y": 180 },
+      { "model": "tfcmu2:block/ore/small_bituminous_coal", "y": 270 }
+    ]
+  }
+}
+

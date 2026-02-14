@@ -22,6 +22,34 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 
 public final class Tfcmu2Blocks {
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(Tfcmu2Mod.MOD_ID);
+
+    // TFC has "loose ore" / surface sample blocks for only a subset of ore pieces (tfc:ore/small_*).
+    // For ore pieces that have no surface sample (e.g. tfc:ore/graphite), we add groundcover blocks that
+    // drop the existing ore piece item on break or right-click (handled by TFC's GroundcoverBlock).
+    // These are blocks only (no block items registered).
+    private static final List<String> ORE_PIECES_WITHOUT_SAMPLES = List.of(
+        "amethyst",
+        "bituminous_coal",
+        "borax",
+        "cinnabar",
+        "cryolite",
+        "diamond",
+        "emerald",
+        "graphite",
+        "gypsum",
+        "halite",
+        "lapis_lazuli",
+        "lignite",
+        "opal",
+        "pyrite",
+        "ruby",
+        "saltpeter",
+        "sapphire",
+        "sulfur",
+        "sylvite",
+        "topaz"
+    );
+
     public static final Map<Tfcmu2Metal, DeferredBlock<Block>> METAL_BLOCKS = registerMetalBlocks();
     public static final Map<Tfcmu2Metal, DeferredBlock<Block>> METAL_BLOCK_SLABS = registerMetalBlockSlabs();
     public static final Map<Tfcmu2Metal, DeferredBlock<Block>> METAL_BLOCK_STAIRS = registerMetalBlockStairs();
@@ -30,6 +58,7 @@ public final class Tfcmu2Blocks {
     public static final Map<Tfcmu2VanillaStone, Map<Tfcmu2Ore, Map<Ore.Grade, DeferredBlock<Block>>>> VANILLA_GRADED_ORES = registerVanillaGradedOres();
     public static final Map<Tfcmu2VanillaStone, Map<String, DeferredBlock<Block>>> COMPAT_VANILLA_ORES = registerCompatVanillaOres();
     public static final Map<Tfcmu2Ore, DeferredBlock<Block>> SMALL_ORES = registerSmallOres();
+    public static final Map<String, DeferredBlock<Block>> COMPAT_SMALL_ORE_PIECES = registerCompatSmallOrePieces();
 
     private Tfcmu2Blocks() {
     }
@@ -252,6 +281,20 @@ public final class Tfcmu2Blocks {
             }
             final String id = "ore/small_" + ore.getSerializedName();
             ores.put(ore, BLOCKS.register(id, () -> GroundcoverBlock.looseOre(BlockBehaviour.Properties.of()
+                .mapColor(MapColor.GRASS)
+                .strength(0.05F, 0.0F)
+                .sound(SoundType.NETHER_ORE)
+                .noCollission()
+                .pushReaction(PushReaction.DESTROY))));
+        }
+        return Collections.unmodifiableMap(ores);
+    }
+
+    private static Map<String, DeferredBlock<Block>> registerCompatSmallOrePieces() {
+        final Map<String, DeferredBlock<Block>> ores = new HashMap<>();
+        for (String oreName : ORE_PIECES_WITHOUT_SAMPLES) {
+            final String id = "ore/small_" + oreName;
+            ores.put(oreName, BLOCKS.register(id, () -> GroundcoverBlock.looseOre(BlockBehaviour.Properties.of()
                 .mapColor(MapColor.GRASS)
                 .strength(0.05F, 0.0F)
                 .sound(SoundType.NETHER_ORE)
