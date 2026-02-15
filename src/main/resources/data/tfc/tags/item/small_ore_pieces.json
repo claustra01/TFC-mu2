@@ -1,11 +1,12 @@
 {
-  "values": [
-    "tfcmu2:ore/small_native_osmium",
-    "tfcmu2:ore/small_native_iridium",
-    "tfcmu2:ore/small_native_platinum",
-    "tfcmu2:ore/small_native_naquadah",
-    "tfcmu2:ore/small_rutile",
-    "tfcmu2:ore/small_stibnite",
-    "tfcmu2:ore/small_wolframite"
-  ]
+    "values":  [
+                   "tfcmu2:ore/small_native_osmium",
+                   "tfcmu2:ore/small_native_iridium",
+                   "tfcmu2:ore/small_native_platinum",
+                   "tfcmu2:ore/small_native_naquadah",
+                   "tfcmu2:ore/small_rutile",
+                   "tfcmu2:ore/small_stibnite",
+                   "tfcmu2:ore/small_wolframite",
+                   "tfcmu2:ore/small_fluorite"
+               ]
 }

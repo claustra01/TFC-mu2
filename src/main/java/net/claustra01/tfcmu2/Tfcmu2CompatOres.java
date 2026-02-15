@@ -13,6 +13,7 @@ public final class Tfcmu2CompatOres {
         "cryolite",
         "diamond",
         "emerald",
+        "fluorite",
         "graphite",
         "gypsum",
         "lapis_lazuli",
@@ -94,4 +95,3 @@ public final class Tfcmu2CompatOres {
         return ores;
     }
 }
-

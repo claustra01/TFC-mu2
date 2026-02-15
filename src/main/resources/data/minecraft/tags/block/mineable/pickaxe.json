@@ -632,29 +632,125 @@
                    "tfcmu2:ore/sylvite/endstone",
                    "tfcmu2:ore/topaz/netherrack",
                    "tfcmu2:ore/topaz/endstone",
-                   {"id":"tfcmu2:ore/normal_chromite/netherrack","required":false},
-                   {"id":"tfcmu2:ore/normal_chromite/endstone","required":false},
-                   {"id":"tfcmu2:ore/poor_chromite/netherrack","required":false},
-                   {"id":"tfcmu2:ore/poor_chromite/endstone","required":false},
-                   {"id":"tfcmu2:ore/rich_chromite/netherrack","required":false},
-                   {"id":"tfcmu2:ore/rich_chromite/endstone","required":false},
-                   {"id":"tfcmu2:ore/normal_bauxite/netherrack","required":false},
-                   {"id":"tfcmu2:ore/normal_bauxite/endstone","required":false},
-                   {"id":"tfcmu2:ore/normal_galena/netherrack","required":false},
-                   {"id":"tfcmu2:ore/normal_galena/endstone","required":false},
-                   {"id":"tfcmu2:ore/normal_uraninite/netherrack","required":false},
-                   {"id":"tfcmu2:ore/normal_uraninite/endstone","required":false},
-                   {"id":"tfcmu2:ore/poor_bauxite/netherrack","required":false},
-                   {"id":"tfcmu2:ore/poor_bauxite/endstone","required":false},
-                   {"id":"tfcmu2:ore/poor_galena/netherrack","required":false},
-                   {"id":"tfcmu2:ore/poor_galena/endstone","required":false},
-                   {"id":"tfcmu2:ore/poor_uraninite/netherrack","required":false},
-                   {"id":"tfcmu2:ore/poor_uraninite/endstone","required":false},
-                   {"id":"tfcmu2:ore/rich_bauxite/netherrack","required":false},
-                   {"id":"tfcmu2:ore/rich_bauxite/endstone","required":false},
-                   {"id":"tfcmu2:ore/rich_galena/netherrack","required":false},
-                   {"id":"tfcmu2:ore/rich_galena/endstone","required":false},
-                   {"id":"tfcmu2:ore/rich_uraninite/netherrack","required":false},
-                   {"id":"tfcmu2:ore/rich_uraninite/endstone","required":false}
+                   {
+                       "id":  "tfcmu2:ore/normal_chromite/netherrack",
+                       "required":  false
+                   },
+                   {
+                       "id":  "tfcmu2:ore/normal_chromite/endstone",
+                       "required":  false
+                   },
+                   {
+                       "id":  "tfcmu2:ore/poor_chromite/netherrack",
+                       "required":  false
+                   },
+                   {
+                       "id":  "tfcmu2:ore/poor_chromite/endstone",
+                       "required":  false
+                   },
+                   {
+                       "id":  "tfcmu2:ore/rich_chromite/netherrack",
+                       "required":  false
+                   },
+                   {
+                       "id":  "tfcmu2:ore/rich_chromite/endstone",
+                       "required":  false
+                   },
+                   {
+                       "id":  "tfcmu2:ore/normal_bauxite/netherrack",
+                       "required":  false
+                   },
+                   {
+                       "id":  "tfcmu2:ore/normal_bauxite/endstone",
+                       "required":  false
+                   },
+                   {
+                       "id":  "tfcmu2:ore/normal_galena/netherrack",
+                       "required":  false
+                   },
+                   {
+                       "id":  "tfcmu2:ore/normal_galena/endstone",
+                       "required":  false
+                   },
+                   {
+                       "id":  "tfcmu2:ore/normal_uraninite/netherrack",
+                       "required":  false
+                   },
+                   {
+                       "id":  "tfcmu2:ore/normal_uraninite/endstone",
+                       "required":  false
+                   },
+                   {
+                       "id":  "tfcmu2:ore/poor_bauxite/netherrack",
+                       "required":  false
+                   },
+                   {
+                       "id":  "tfcmu2:ore/poor_bauxite/endstone",
+                       "required":  false
+                   },
+                   {
+                       "id":  "tfcmu2:ore/poor_galena/netherrack",
+                       "required":  false
+                   },
+                   {
+                       "id":  "tfcmu2:ore/poor_galena/endstone",
+                       "required":  false
+                   },
+                   {
+                       "id":  "tfcmu2:ore/poor_uraninite/netherrack",
+                       "required":  false
+                   },
+                   {
+                       "id":  "tfcmu2:ore/poor_uraninite/endstone",
+                       "required":  false
+                   },
+                   {
+                       "id":  "tfcmu2:ore/rich_bauxite/netherrack",
+                       "required":  false
+                   },
+                   {
+                       "id":  "tfcmu2:ore/rich_bauxite/endstone",
+                       "required":  false
+                   },
+                   {
+                       "id":  "tfcmu2:ore/rich_galena/netherrack",
+                       "required":  false
+                   },
+                   {
+                       "id":  "tfcmu2:ore/rich_galena/endstone",
+                       "required":  false
+                   },
+                   {
+                       "id":  "tfcmu2:ore/rich_uraninite/netherrack",
+                       "required":  false
+                   },
+                   {
+                       "id":  "tfcmu2:ore/rich_uraninite/endstone",
+                       "required":  false
+                   },
+                   "tfcmu2:ore/fluorite/andesite",
+                   "tfcmu2:ore/fluorite/basalt",
+                   "tfcmu2:ore/fluorite/chalk",
+                   "tfcmu2:ore/fluorite/chert",
+                   "tfcmu2:ore/fluorite/claystone",
+                   "tfcmu2:ore/fluorite/conglomerate",
+                   "tfcmu2:ore/fluorite/dacite",
+                   "tfcmu2:ore/fluorite/diorite",
+                   "tfcmu2:ore/fluorite/dolomite",
+                   "tfcmu2:ore/fluorite/endstone",
+                   "tfcmu2:ore/fluorite/gabbro",
+                   "tfcmu2:ore/fluorite/gneiss",
+                   "tfcmu2:ore/fluorite/granite",
+                   "tfcmu2:ore/fluorite/limestone",
+                   "tfcmu2:ore/fluorite/marble",
+                   "tfcmu2:ore/fluorite/netherrack",
+                   "tfcmu2:ore/fluorite/phyllite",
+                   "tfcmu2:ore/fluorite/quartzite",
+                   "tfcmu2:ore/fluorite/rhyolite",
+                   "tfcmu2:ore/fluorite/schist",
+                   "tfcmu2:ore/fluorite/shale",
+                   "tfcmu2:ore/fluorite/slate",
+                   "tfcmu2:ore/fluorite/tuff",
+                   "tfcmu2:ore/small_fluorite"
                ]
 }

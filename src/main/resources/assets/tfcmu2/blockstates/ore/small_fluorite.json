@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "": [
+      { "model": "tfcmu2:block/ore/small_fluorite", "y": 90 },
+      { "model": "tfcmu2:block/ore/small_fluorite" },
+      { "model": "tfcmu2:block/ore/small_fluorite", "y": 180 },
+      { "model": "tfcmu2:block/ore/small_fluorite", "y": 270 }
+    ]
+  }
+}

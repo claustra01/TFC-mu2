@@ -13,6 +13,7 @@ public enum Tfcmu2Ore {
     NATIVE_NAQUADAH(true, "naquadah"),
     NATIVE_IRIDIUM(true, "iridium"),
     NATIVE_OSMIUM(true, "osmium"),
+    FLUORITE(false, "fluorite"),
     RUTILE(true, "titanium"),
     STIBNITE(true, "antimony"),
     WOLFRAMITE(true, "tungsten");

@@ -35,6 +35,7 @@ public final class Tfcmu2Blocks {
         "cryolite",
         "diamond",
         "emerald",
+        "fluorite",
         "graphite",
         "gypsum",
         "halite",

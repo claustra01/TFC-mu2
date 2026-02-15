@@ -67,6 +67,9 @@ public final class Tfcmu2Items {
     private static Map<Tfcmu2Ore, Map<Tfcmu2OreWashingItemType, DeferredItem<Item>>> registerOreWashingOreItems() {
         final EnumMap<Tfcmu2Ore, Map<Tfcmu2OreWashingItemType, DeferredItem<Item>>> itemsByOre = new EnumMap<>(Tfcmu2Ore.class);
         for (Tfcmu2Ore ore : Tfcmu2Ore.VALUES) {
+            if (!ore.isGraded()) {
+                continue;
+            }
             final String oreName = ore.oreWashingSerializedName();
             final EnumMap<Tfcmu2OreWashingItemType, DeferredItem<Item>> itemsByType = new EnumMap<>(Tfcmu2OreWashingItemType.class);
             for (Tfcmu2OreWashingItemType type : Tfcmu2OreWashingItemType.values()) {

@@ -1,0 +1,27 @@
+{
+    "values":  [
+                   "tfcmu2:ore/fluorite/andesite",
+                   "tfcmu2:ore/fluorite/basalt",
+                   "tfcmu2:ore/fluorite/chalk",
+                   "tfcmu2:ore/fluorite/chert",
+                   "tfcmu2:ore/fluorite/claystone",
+                   "tfcmu2:ore/fluorite/conglomerate",
+                   "tfcmu2:ore/fluorite/dacite",
+                   "tfcmu2:ore/fluorite/diorite",
+                   "tfcmu2:ore/fluorite/dolomite",
+                   "tfcmu2:ore/fluorite/endstone",
+                   "tfcmu2:ore/fluorite/gabbro",
+                   "tfcmu2:ore/fluorite/gneiss",
+                   "tfcmu2:ore/fluorite/granite",
+                   "tfcmu2:ore/fluorite/limestone",
+                   "tfcmu2:ore/fluorite/marble",
+                   "tfcmu2:ore/fluorite/netherrack",
+                   "tfcmu2:ore/fluorite/phyllite",
+                   "tfcmu2:ore/fluorite/quartzite",
+                   "tfcmu2:ore/fluorite/rhyolite",
+                   "tfcmu2:ore/fluorite/schist",
+                   "tfcmu2:ore/fluorite/shale",
+                   "tfcmu2:ore/fluorite/slate",
+                   "tfcmu2:ore/fluorite/tuff"
+               ]
+}
