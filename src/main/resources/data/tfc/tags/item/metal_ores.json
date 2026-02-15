@@ -1,4 +1,4 @@
-﻿{
+{
   "values": [
     "tfcmu2:ore/poor_native_osmium",
     "tfcmu2:ore/normal_native_osmium",
@@ -7,8 +7,11 @@
     "tfcmu2:ore/normal_native_iridium",
     "tfcmu2:ore/rich_native_iridium",
     "tfcmu2:ore/poor_native_platinum",
+    "tfcmu2:ore/poor_native_naquadah",
     "tfcmu2:ore/normal_native_platinum",
+    "tfcmu2:ore/normal_native_naquadah",
     "tfcmu2:ore/rich_native_platinum",
+    "tfcmu2:ore/rich_native_naquadah",
     "tfcmu2:ore/poor_rutile",
     "tfcmu2:ore/normal_rutile",
     "tfcmu2:ore/rich_rutile",

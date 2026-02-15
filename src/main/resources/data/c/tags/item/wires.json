@@ -3,6 +3,7 @@
     "values":  [
                    "#c:wires/compressed_iron",
                    "#c:wires/platinum",
+                   "#c:wires/naquadah",
                    "#c:wires/iridium",
                    "#c:wires/osmium",
                    "#c:wires/osmiridium",

@@ -40,6 +40,7 @@ public final class Tfcmu2Blocks {
         "halite",
         "lapis_lazuli",
         "lignite",
+        "nether_quartz",
         "opal",
         "pyrite",
         "ruby",

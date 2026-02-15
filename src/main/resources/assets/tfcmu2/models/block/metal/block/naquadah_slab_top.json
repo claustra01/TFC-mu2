@@ -1,0 +1,9 @@
+{
+    "parent":  "block/slab_top",
+    "textures":  {
+                     "bottom":  "tfcmu2:block/metal/block/naquadah",
+                     "top":  "tfcmu2:block/metal/block/naquadah",
+                     "side":  "tfcmu2:block/metal/block/naquadah"
+                 }
+}
+

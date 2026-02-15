@@ -10,6 +10,7 @@ import net.minecraft.world.level.material.MapColor;
 
 public enum Tfcmu2Ore {
     NATIVE_PLATINUM(true, "platinum"),
+    NATIVE_NAQUADAH(true, "naquadah"),
     NATIVE_IRIDIUM(true, "iridium"),
     NATIVE_OSMIUM(true, "osmium"),
     RUTILE(true, "titanium"),

@@ -2,6 +2,7 @@
     "values":  [
                    "#c:storage_blocks/compressed_iron",
                    "#c:storage_blocks/platinum",
+                   "#c:storage_blocks/naquadah",
                    "#c:storage_blocks/iridium",
                    "#c:storage_blocks/osmium",
                    "#c:storage_blocks/osmiridium",

@@ -1,0 +1,15 @@
+{
+    "type":  "tfc:welding",
+    "first_input":  {
+                        "tag":  "c:ingots/naquadah"
+                    },
+    "second_input":  {
+                         "tag":  "c:ingots/naquadah"
+                     },
+    "result":  {
+                   "count":  1,
+                   "id":  "tfcmu2:metal/double_ingot/naquadah"
+               },
+    "tier":  3
+}
+

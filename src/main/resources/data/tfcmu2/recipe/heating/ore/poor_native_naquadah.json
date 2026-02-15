@@ -1,0 +1,12 @@
+{
+    "type":  "tfc:heating",
+    "ingredient":  {
+                       "item":  "tfcmu2:ore/poor_native_naquadah"
+                   },
+    "result_fluid":  {
+                         "amount":  15,
+                         "id":  "tfc:metal/naquadah"
+                     },
+    "temperature":  1730
+}
+

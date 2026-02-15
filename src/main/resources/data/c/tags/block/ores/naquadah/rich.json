@@ -1,0 +1,28 @@
+{
+    "values":  [
+                   "tfcmu2:ore/rich_native_naquadah/granite",
+                   "tfcmu2:ore/rich_native_naquadah/diorite",
+                   "tfcmu2:ore/rich_native_naquadah/gabbro",
+                   "tfcmu2:ore/rich_native_naquadah/shale",
+                   "tfcmu2:ore/rich_native_naquadah/claystone",
+                   "tfcmu2:ore/rich_native_naquadah/limestone",
+                   "tfcmu2:ore/rich_native_naquadah/conglomerate",
+                   "tfcmu2:ore/rich_native_naquadah/dolomite",
+                   "tfcmu2:ore/rich_native_naquadah/chert",
+                   "tfcmu2:ore/rich_native_naquadah/chalk",
+                   "tfcmu2:ore/rich_native_naquadah/tuff",
+                   "tfcmu2:ore/rich_native_naquadah/rhyolite",
+                   "tfcmu2:ore/rich_native_naquadah/basalt",
+                   "tfcmu2:ore/rich_native_naquadah/andesite",
+                   "tfcmu2:ore/rich_native_naquadah/dacite",
+                   "tfcmu2:ore/rich_native_naquadah/quartzite",
+                   "tfcmu2:ore/rich_native_naquadah/slate",
+                   "tfcmu2:ore/rich_native_naquadah/phyllite",
+                   "tfcmu2:ore/rich_native_naquadah/schist",
+                   "tfcmu2:ore/rich_native_naquadah/gneiss",
+                   "tfcmu2:ore/rich_native_naquadah/marble",
+                   "tfcmu2:ore/rich_native_naquadah/netherrack",
+                   "tfcmu2:ore/rich_native_naquadah/endstone"
+               ]
+}
+

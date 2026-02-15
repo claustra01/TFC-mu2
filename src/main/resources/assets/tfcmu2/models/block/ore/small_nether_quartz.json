@@ -1,0 +1,6 @@
+{
+  "parent": "tfcmu2:block/ore/small_ore_piece",
+  "textures": {
+    "ore": "minecraft:item/quartz"
+  }
+}

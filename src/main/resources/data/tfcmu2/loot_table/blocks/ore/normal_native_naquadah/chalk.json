@@ -1,0 +1,21 @@
+{
+    "type":  "minecraft:block",
+    "random_sequence":  "tfcmu2:blocks/ore/normal_native_naquadah/chalk",
+    "pools":  [
+                  {
+                      "rolls":  1,
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "tfcmu2:ore/normal_native_naquadah"
+                                      }
+                                  ],
+                      "conditions":  [
+                                         {
+                                             "condition":  "minecraft:survives_explosion"
+                                         }
+                                     ]
+                  }
+              ]
+}
+

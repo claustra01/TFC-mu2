@@ -1,0 +1,9 @@
+{
+    "ingredient":  {
+                       "tag":  "c:heavy_sheets/naquadah"
+                   },
+    "heat_capacity":  14.285,
+    "forging_temperature":  1038,
+    "welding_temperature":  1384
+}
+

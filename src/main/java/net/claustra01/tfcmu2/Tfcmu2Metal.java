@@ -13,6 +13,7 @@ import net.minecraft.world.level.material.MapColor;
 public enum Tfcmu2Metal implements RegistryMetal {
     COMPRESSED_IRON("compressed_iron", Rarity.UNCOMMON, 0x6F6C6B),
     PLATINUM("platinum", Rarity.RARE, 0x627C8B),
+    NAQUADAH("naquadah", Rarity.RARE, 0x4D5742),
     IRIDIUM("iridium", Rarity.UNCOMMON, 0xADC4CE),
     OSMIUM("osmium", Rarity.UNCOMMON, 0xA5B4CA),
     OSMIRIDIUM("osmiridium", Rarity.UNCOMMON, 0x718383),

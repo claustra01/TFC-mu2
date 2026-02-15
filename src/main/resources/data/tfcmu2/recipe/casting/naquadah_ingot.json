@@ -1,0 +1,16 @@
+{
+    "type":  "tfc:casting",
+    "mold":  {
+                 "item":  "tfc:ceramic/ingot_mold"
+             },
+    "fluid":  {
+                  "amount":  100,
+                  "fluid":  "tfc:metal/naquadah"
+              },
+    "result":  {
+                   "count":  1,
+                   "id":  "tfcmu2:metal/ingot/naquadah"
+               },
+    "break_chance":  0.1
+}
+

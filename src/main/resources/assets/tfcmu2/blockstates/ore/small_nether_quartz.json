@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "": [
+      { "model": "tfcmu2:block/ore/small_nether_quartz", "y": 90 },
+      { "model": "tfcmu2:block/ore/small_nether_quartz" },
+      { "model": "tfcmu2:block/ore/small_nether_quartz", "y": 180 },
+      { "model": "tfcmu2:block/ore/small_nether_quartz", "y": 270 }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+    "type":  "minecraft:block",
+    "random_sequence":  "tfcmu2:blocks/ore/rich_native_naquadah/tuff",
+    "pools":  [
+                  {
+                      "rolls":  1,
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "tfcmu2:ore/rich_native_naquadah"
+                                      }
+                                  ],
+                      "conditions":  [
+                                         {
+                                             "condition":  "minecraft:survives_explosion"
+                                         }
+                                     ]
+                  }
+              ]
+}
+
