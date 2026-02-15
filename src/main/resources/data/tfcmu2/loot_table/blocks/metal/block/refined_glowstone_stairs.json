@@ -1,0 +1,21 @@
+{
+    "type":  "minecraft:block",
+    "pools":  [
+                  {
+                      "name":  "loot_pool",
+                      "rolls":  1,
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "tfcmu2:metal/block/refined_glowstone_stairs"
+                                      }
+                                  ],
+                      "conditions":  [
+                                         {
+                                             "condition":  "minecraft:survives_explosion"
+                                         }
+                                     ]
+                  }
+              ]
+}
+

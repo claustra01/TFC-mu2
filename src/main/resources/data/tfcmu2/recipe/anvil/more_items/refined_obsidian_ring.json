@@ -1,0 +1,23 @@
+{
+    "neoforge:conditions":  [
+                                {
+                                    "type":  "neoforge:mod_loaded",
+                                    "modid":  "tfc_items"
+                                }
+                            ],
+    "type":  "tfc:anvil",
+    "ingredient":  {
+                       "item":  "tfcmu2:metal/stamen/refined_obsidian"
+                   },
+    "result":  {
+                   "id":  "tfcmu2:metal/ring/refined_obsidian",
+                   "count":  2
+               },
+    "tier":  2,
+    "rules":  [
+                  "hit_last",
+                  "draw_second_last",
+                  "draw_third_last"
+              ]
+}
+

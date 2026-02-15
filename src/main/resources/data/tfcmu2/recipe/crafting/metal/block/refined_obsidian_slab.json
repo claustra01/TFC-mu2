@@ -1,0 +1,17 @@
+{
+    "type":  "minecraft:crafting_shaped",
+    "category":  "misc",
+    "key":  {
+                "B":  {
+                          "tag":  "c:storage_blocks/refined_obsidian"
+                      }
+            },
+    "pattern":  [
+                    "BBB"
+                ],
+    "result":  {
+                   "count":  6,
+                   "id":  "tfcmu2:metal/block/refined_obsidian_slab"
+               }
+}
+

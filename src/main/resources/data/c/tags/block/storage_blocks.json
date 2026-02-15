@@ -6,6 +6,8 @@
                    "#c:storage_blocks/osmium",
                    "#c:storage_blocks/osmiridium",
                    "#c:storage_blocks/mythril",
+                   "#c:storage_blocks/refined_glowstone",
+                   "#c:storage_blocks/refined_obsidian",
                    "#c:storage_blocks/antimony",
                    "#c:storage_blocks/tungsten",
                    "#c:storage_blocks/solder",

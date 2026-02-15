@@ -1,0 +1,17 @@
+{
+    "type":  "tfc:anvil",
+    "ingredient":  {
+                       "tag":  "c:double_ingots/refined_glowstone"
+                   },
+    "result":  {
+                   "count":  1,
+                   "id":  "tfcmu2:metal/sheet/refined_glowstone"
+               },
+    "rules":  [
+                  "hit_third_last",
+                  "hit_second_last",
+                  "hit_last"
+              ],
+    "tier":  2
+}
+

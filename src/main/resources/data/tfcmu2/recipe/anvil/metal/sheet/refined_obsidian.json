@@ -1,0 +1,17 @@
+{
+    "type":  "tfc:anvil",
+    "ingredient":  {
+                       "tag":  "c:double_ingots/refined_obsidian"
+                   },
+    "result":  {
+                   "count":  1,
+                   "id":  "tfcmu2:metal/sheet/refined_obsidian"
+               },
+    "rules":  [
+                  "hit_third_last",
+                  "hit_second_last",
+                  "hit_last"
+              ],
+    "tier":  2
+}
+

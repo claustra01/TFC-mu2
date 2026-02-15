@@ -1,0 +1,9 @@
+{
+    "parent":  "block/outer_stairs",
+    "textures":  {
+                     "bottom":  "tfcmu2:block/metal/block/refined_obsidian",
+                     "top":  "tfcmu2:block/metal/block/refined_obsidian",
+                     "side":  "tfcmu2:block/metal/block/refined_obsidian"
+                 }
+}
+

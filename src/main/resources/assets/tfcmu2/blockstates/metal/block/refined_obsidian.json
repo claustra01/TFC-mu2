@@ -1,0 +1,7 @@
+{
+    "variants":  {
+                     "":  {
+                              "model":  "tfcmu2:block/metal/block/refined_obsidian"
+                          }
+                 }
+}

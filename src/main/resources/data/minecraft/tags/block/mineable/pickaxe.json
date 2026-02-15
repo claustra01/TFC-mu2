@@ -6,6 +6,8 @@
                    "tfcmu2:metal/block/osmium",
                    "tfcmu2:metal/block/osmiridium",
                    "tfcmu2:metal/block/mythril",
+                   "tfcmu2:metal/block/refined_glowstone",
+                   "tfcmu2:metal/block/refined_obsidian",
                    "tfcmu2:metal/block/antimony",
                    "tfcmu2:metal/block/tungsten",
                    "tfcmu2:metal/block/solder",

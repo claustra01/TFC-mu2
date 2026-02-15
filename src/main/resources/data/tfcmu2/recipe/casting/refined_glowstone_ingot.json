@@ -1,0 +1,16 @@
+{
+    "type":  "tfc:casting",
+    "mold":  {
+                 "item":  "tfc:ceramic/ingot_mold"
+             },
+    "fluid":  {
+                  "amount":  100,
+                  "fluid":  "tfc:metal/refined_glowstone"
+              },
+    "result":  {
+                   "count":  1,
+                   "id":  "tfcmu2:metal/ingot/refined_glowstone"
+               },
+    "break_chance":  0.1
+}
+

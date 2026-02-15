@@ -1,0 +1,15 @@
+{
+    "type":  "tfc:welding",
+    "first_input":  {
+                        "tag":  "c:ingots/refined_glowstone"
+                    },
+    "second_input":  {
+                         "tag":  "c:ingots/refined_glowstone"
+                     },
+    "result":  {
+                   "count":  1,
+                   "id":  "tfcmu2:metal/double_ingot/refined_glowstone"
+               },
+    "tier":  1
+}
+

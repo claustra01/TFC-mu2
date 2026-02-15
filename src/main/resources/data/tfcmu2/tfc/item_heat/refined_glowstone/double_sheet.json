@@ -1,0 +1,9 @@
+﻿{
+    "ingredient":  {
+                       "tag":  "c:double_sheets/refined_glowstone"
+                   },
+    "heat_capacity":  11.429,
+    "forging_temperature":  564,
+    "welding_temperature":  752
+}
+

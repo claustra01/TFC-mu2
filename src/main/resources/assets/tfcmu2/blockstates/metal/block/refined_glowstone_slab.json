@@ -1,0 +1,14 @@
+{
+    "variants":  {
+                     "type=bottom":  {
+                                         "model":  "tfcmu2:block/metal/block/refined_glowstone_slab"
+                                     },
+                     "type=top":  {
+                                      "model":  "tfcmu2:block/metal/block/refined_glowstone_slab_top"
+                                  },
+                     "type=double":  {
+                                         "model":  "tfcmu2:block/metal/block/refined_glowstone"
+                                     }
+                 }
+}
+

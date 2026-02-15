@@ -1,0 +1,9 @@
+﻿{
+    "ingredient":  {
+                       "tag":  "c:gears/refined_obsidian"
+                   },
+    "heat_capacity":  11.428,
+    "forging_temperature":  564,
+    "welding_temperature":  752
+}
+
