@@ -176,6 +176,10 @@ public final class Tfcmu2VeinsYamlParser {
     }
 
     public static List<VeinDefinition> parseVeins(Path yamlPath) throws IOException {
+        return parseVeins(yamlPath, List.of());
+    }
+
+    public static List<VeinDefinition> parseVeins(Path yamlPath, List<String> defaultRocks) throws IOException {
         if (!Files.exists(yamlPath)) {
             return List.of();
         }
@@ -339,7 +343,7 @@ public final class Tfcmu2VeinsYamlParser {
                 i++;
             }
 
-            final VeinDefinition def = toDefinition(id, props, yamlPath);
+            final VeinDefinition def = toDefinition(id, props, yamlPath, defaultRocks);
             if (def != null) {
                 defs.add(def);
             }
@@ -348,7 +352,7 @@ public final class Tfcmu2VeinsYamlParser {
         return List.copyOf(defs);
     }
 
-    private static VeinDefinition toDefinition(ResourceLocation id, LinkedHashMap<String, Object> props, Path owner) {
+    private static VeinDefinition toDefinition(ResourceLocation id, LinkedHashMap<String, Object> props, Path owner, List<String> defaultRocks) {
         try {
             final String block = requireString(props, "block", id);
             final ResourceLocation type = requireResourceLocation(props, "type", id);
@@ -361,10 +365,13 @@ public final class Tfcmu2VeinsYamlParser {
             final int size = isPipe ? (props.containsKey("size") ? requireInt(props, "size", id) : 0) : requireInt(props, "size", id);
 
             @SuppressWarnings("unchecked")
-            final List<String> rocks = (List<String>) props.getOrDefault("rocks", List.of());
+            List<String> rocks = (List<String>) props.getOrDefault("rocks", List.of());
             if (rocks.isEmpty()) {
-                LOGGER.warn("Missing rocks for {} in {}", id, owner);
-                return null;
+                if (defaultRocks == null || defaultRocks.isEmpty()) {
+                    LOGGER.warn("Missing rocks for {} in {}", id, owner);
+                    return null;
+                }
+                rocks = defaultRocks;
             }
 
             @SuppressWarnings("unchecked")

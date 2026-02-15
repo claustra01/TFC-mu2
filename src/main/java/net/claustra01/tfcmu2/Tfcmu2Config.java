@@ -20,7 +20,7 @@ public final class Tfcmu2Config {
             enableCustomVeinGeneration = builder
                 .comment(
                     "If true, TFMCU2 will replace TFC's '#tfc:in_biome/veins' placed features with veins loaded from",
-                    "config/tfcmu2/veins.yaml. Changes require a full game restart."
+                    "config/tfcmu2/{overworld,nether,end}.yaml. Changes require a full game restart."
                 )
                 .define("enableCustomVeinGeneration", false);
             builder.pop();

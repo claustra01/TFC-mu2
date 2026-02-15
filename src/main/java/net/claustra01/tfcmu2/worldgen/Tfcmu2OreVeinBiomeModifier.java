@@ -37,7 +37,9 @@ public final class Tfcmu2OreVeinBiomeModifier implements BiomeModifier {
     static final Tfcmu2OreVeinBiomeModifier INSTANCE = new Tfcmu2OreVeinBiomeModifier();
 
     private static final Logger LOGGER = LogUtils.getLogger();
-    private static final AtomicBoolean LOGGED_CUSTOM_STATUS = new AtomicBoolean(false);
+    private static final AtomicBoolean LOGGED_CUSTOM_OVERWORLD_STATUS = new AtomicBoolean(false);
+    private static final AtomicBoolean LOGGED_CUSTOM_NETHER_STATUS = new AtomicBoolean(false);
+    private static final AtomicBoolean LOGGED_CUSTOM_END_STATUS = new AtomicBoolean(false);
 
     // Matches the tags referenced by TFC biome JSONs.
     private static final TagKey<PlacedFeature> VEINS_TAG = TagKey.create(
@@ -48,6 +50,12 @@ public final class Tfcmu2OreVeinBiomeModifier implements BiomeModifier {
     );
     private static final TagKey<PlacedFeature> KAOLIN_VEINS_TAG = TagKey.create(
         Registries.PLACED_FEATURE, id("tfc", "in_biome/veins/kaolin")
+    );
+    private static final TagKey<Biome> IS_NETHER = TagKey.create(
+        Registries.BIOME, id("minecraft", "is_nether")
+    );
+    private static final TagKey<Biome> IS_END = TagKey.create(
+        Registries.BIOME, id("minecraft", "is_end")
     );
 
     private Tfcmu2OreVeinBiomeModifier() {
@@ -67,22 +75,50 @@ public final class Tfcmu2OreVeinBiomeModifier implements BiomeModifier {
 
         final Registry<PlacedFeature> placedFeatures = server.registryAccess().registryOrThrow(Registries.PLACED_FEATURE);
 
-        // Mirrors TFC's biome JSON layout where '#tfc:in_biome/veins' sits at feature-step index 6.
         final List<Holder<PlacedFeature>> ores = builder.getGenerationSettings().getFeatures(GenerationStep.Decoration.UNDERGROUND_ORES);
+
+        if (Tfcmu2Config.COMMON.enableCustomVeinGeneration.get()) {
+            if (biome.is(IS_NETHER)) {
+                final List<Holder<PlacedFeature>> customVeins = Tfcmu2CustomVeins.resolveNetherPlacedFeatures(placedFeatures);
+                if (!customVeins.isEmpty()) {
+                    if (LOGGED_CUSTOM_NETHER_STATUS.compareAndSet(false, true)) {
+                        LOGGER.info("Custom vein generation enabled: adding {} nether custom veins to minecraft:is_nether biomes.", customVeins.size());
+                    }
+                    addUniqueFeatures(ores, customVeins);
+                } else if (LOGGED_CUSTOM_NETHER_STATUS.compareAndSet(false, true)) {
+                    LOGGER.info("Custom vein generation enabled, but no nether custom veins were loaded.");
+                }
+                return;
+            }
+            if (biome.is(IS_END)) {
+                final List<Holder<PlacedFeature>> customVeins = Tfcmu2CustomVeins.resolveEndPlacedFeatures(placedFeatures);
+                if (!customVeins.isEmpty()) {
+                    if (LOGGED_CUSTOM_END_STATUS.compareAndSet(false, true)) {
+                        LOGGER.info("Custom vein generation enabled: adding {} end custom veins to minecraft:is_end biomes.", customVeins.size());
+                    }
+                    addUniqueFeatures(ores, customVeins);
+                } else if (LOGGED_CUSTOM_END_STATUS.compareAndSet(false, true)) {
+                    LOGGER.info("Custom vein generation enabled, but no end custom veins were loaded.");
+                }
+                return;
+            }
+        }
+
+        // Mirrors TFC's biome JSON layout where '#tfc:in_biome/veins' sits at feature-step index 6.
         if (!containsAnyFeatureFromTag(ores, placedFeatures, VEINS_TAG)) {
             return;
         }
 
         if (Tfcmu2Config.COMMON.enableCustomVeinGeneration.get()) {
-            final List<Holder<PlacedFeature>> customVeins = Tfcmu2CustomVeins.resolvePlacedFeatures(placedFeatures);
+            final List<Holder<PlacedFeature>> customVeins = Tfcmu2CustomVeins.resolveOverworldPlacedFeatures(placedFeatures);
             if (!customVeins.isEmpty()) {
-                if (LOGGED_CUSTOM_STATUS.compareAndSet(false, true)) {
+                if (LOGGED_CUSTOM_OVERWORLD_STATUS.compareAndSet(false, true)) {
                     LOGGER.info("Custom vein generation enabled: replacing ore veins from #tfc:in_biome/veins with {} custom veins.", customVeins.size());
                 }
                 // Only replace actual ore veins. Keep other features from the veins tag (ex: gravel, dikes, geodes) intact.
                 replaceOreVeinsFromTagWithValues(ores, placedFeatures, VEINS_TAG, "#tfc:in_biome/veins", customVeins);
             } else {
-                if (LOGGED_CUSTOM_STATUS.compareAndSet(false, true)) {
+                if (LOGGED_CUSTOM_OVERWORLD_STATUS.compareAndSet(false, true)) {
                     LOGGER.warn("Custom vein generation is enabled, but no custom veins were loaded. Falling back to default TFC veins.");
                 }
                 // If enabled but no custom veins are available, keep default behavior instead of wiping veins.
@@ -98,6 +134,14 @@ public final class Tfcmu2OreVeinBiomeModifier implements BiomeModifier {
             replaceFromTag(extra, placedFeatures, RIVER_VEINS_TAG, "#tfc:in_biome/veins/river");
         } else if (containsAnyFeatureFromTag(extra, placedFeatures, KAOLIN_VEINS_TAG)) {
             replaceFromTag(extra, placedFeatures, KAOLIN_VEINS_TAG, "#tfc:in_biome/veins/kaolin");
+        }
+    }
+
+    private static void addUniqueFeatures(List<Holder<PlacedFeature>> target, List<Holder<PlacedFeature>> additions) {
+        for (Holder<PlacedFeature> holder : additions) {
+            if (!target.contains(holder)) {
+                target.add(holder);
+            }
         }
     }
 
